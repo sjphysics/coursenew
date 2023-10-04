@@ -1,10 +1,18 @@
 ---
-title: Week 1 Announcement
+title: Week of September 25
 week: 1
-date: 2019-04-08
+date: 2023-09-25
 ---
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Update `_config.yml` with your course information.
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
+## More on Physics & Society and Vectors
+<bR>
+
+[Vectors Slides Live Link](https://docs.google.com/presentation/d/e/2PACX-1vTwEtW3kW3ae9DnZ-xP29lJb5Izm-kpO6MyPH8oaxFlR7AlK79M8ZVsqL9IsdszPeTSE2KLJUuSvKiU/pub)
+
+[View Vectors Slides](/23-24/1Q/vectors/slides.html)
+{: .label .label-yellow }
+
+[Download Vectors Slides](/23-24/1Q/vectors/slides.pdf)
+{: .label .label-yellow }
+  
+{: .fs-5 }
