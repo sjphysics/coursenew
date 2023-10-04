@@ -16,7 +16,7 @@
 title: Grade 11 Physics
 tagline: Course Website for Physics at St. John 
 description: notes, resources, and activities for class 
-author: Kevin Lin
+author: Aaron Kebede #theme author is Kevin lin tho
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://physics.kebede.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
