@@ -52,7 +52,7 @@ Mirrors sites are sites that are identical to this site but hosted on a differen
 
 [Primary Site](//physics.kebede.org)
 {: .label .label-yellow }
-[Mirror 1](http://mirror.physics.kebede.org) - not operational
+[Mirror 1](http://mirror.physics.kebede.org) -  operational ;)
 {: .label .label-yellow }
-[Mirror 2](//sjphys.netlify.app) - not operational
+[Mirror 2](//sjphysics.vercel.app) - not operational
 {: .label .label-yellow }
