@@ -34,7 +34,9 @@ aux_links:
   "GradeViewer":
     - "https://gradeviewer.kebede.org"
   "Telegram":
-    - "https://sjphysics.t.me"footer_content:
+    - "https://sjphysics.t.me"
+    
+footer_content: Grade 11 Physics at St John Baptist De La Salle Catholic School, Addis Ababa
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
