@@ -19,7 +19,6 @@ description: notes, resources, and activities for class
 author: Kevin Lin
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://physics.kebede.org' # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/images/logo.jpg"
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -35,43 +34,6 @@ aux_links:
     - "https://gradeviewer.kebede.org"
   "Telegram":
     - "https://sjphysics.t.me"
-    
-footer_content: Grade 11 Physics at St John Baptist De La Salle Catholic School, Addis Ababa
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
-
-# External navigation links
-nav_external_links:
-  - title: Openstax AP Physics
-    url: https://openstax.org/details/books/college-physics-ap-courses
-  - title: New Grade 11 Textbook
-    url: https://physics.kebede.org/23-24/textbook/textbook.pdf
-  - title: @sjphysics on Telegram
-    url: https://sjphysics.t.me
-
-# Footer content
-# appears at the bottom of every page's main content
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-footer_content: "Grade 10 Physics at St John Baptist De La Salle Catholic School, Addis Ababa"
-
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Access this on Github (requires auth)"
-gh_edit_repository: "https://github.com/aaronkebede/course-new" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately   
-
 # Collections for website data
 collections:
   staffers:
