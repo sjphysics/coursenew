@@ -1,39 +1,58 @@
 ---
 layout: home
-title: Just the Class
+title: Grade 11 Physics
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: Home
 ---
 
-# Just the Class
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+# Grade 11 Physics at St John Baptist De La Salle Catholic School
+{: .fs-9 }
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+The following website contains notes, slides, videos, and other resources we use in this course that I deem useful.
+{: .fs-6 .fw-300 }
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+[This Week](/announcements){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Grade Viewer](https://gradeviewer.kebede.org){: .btn .fs-5 .mb-4 .mb-md-0 }  [Last Year's Course](https://v1.physics.kebede.org){: .btn .fs-5 .mb-4 .mb-md-0 } [Older Courses](https://sj.kebede.org){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+---
 
-## Getting Started
+{: .new }
+> **For questions about homework, research interests, or anything in general, please email [aaron@stjohn.edu.et](mailto:aaron@stjohn.edu.et?subject="Question from physics.kebede.org") or text [@pysm3bot](https://t.me/pysm3bot) in addition to office hours at school.**
 
-Getting started with Just the Class is simple.
+{: .warning }
+> Cheating on assignments, homework, or any schoolwork is prohibited. You are welcome to discuss, but cheating is punishable.
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+# Important Menu Items
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+- [Weekly Announcement & Lessons](/announcements)
+- [About](/about)
+- [Schedule](/schedule)
+- [Calendar](/calendar)
 
-### Local development environment
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+#### Managed by:
+
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
+
+
+#### Website Mirrors
+
+Mirrors sites are sites that are identical to this site but hosted on a different server. <br>
+
+
+[Primary Site](//physics.kebede.org)
+{: .label .label-yellow }
+[Mirror 1](http://mirror.physics.kebede.org) - not operational
+{: .label .label-yellow }
+[Mirror 2](//sjphys.netlify.app) - not operational
+{: .label .label-yellow }
