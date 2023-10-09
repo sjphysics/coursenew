@@ -209,7 +209,7 @@ Chapter Summary {#chapter-summary-1 .unnumbered}
     ![image](coordinatesystem.png)
 
 -   Cylindrical coordinate system
-    $\begin{cases} \rho &= \sqrt{x^2+y^2}\\ \tan(\phi) &= \frac{y}{x}\\ z&=z\end{cases}$
+    $\begin{cases} \rho &= \sqrt{x^2+y^2}\\ \tan(\phi) &= \frac{y}{x}\\ z&=z\end{cases\texttt{}}$
 
 -   Spherical coordinate system
     $\begin{cases} r &= \sqrt{x^2+y^2+z^2}\\ \cos(\theta) &= \frac{z}{r}=\frac{z}{\sqrt{x^2+y^2+z^2}}\\ \tan(\phi) &= \frac{y}{x}\\\end{cases}$
