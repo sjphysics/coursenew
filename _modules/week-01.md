@@ -1,23 +1,7 @@
 ---
-title: Introduction to Java
+title: Physics and Society
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
-
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
-
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Sep 20
+: [Intro: Physics & Society](/announcements/#physics-and-human-society)
+  : [1.1](/23-24/1Q/physics-society/notes.pdf)
