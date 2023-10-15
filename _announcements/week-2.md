@@ -13,5 +13,8 @@ date: 2023-10-02
 | Graphical Vector Addition Slides | [View Slides](/23-24/1Q/vectors/slides.html) |  [Download Slides](/23-24/1Q/vectors/slides.pdf)|
 | Graphical Vector Addition Notes | [View Notes](/23-24/1Q/vectors/main.html) |  [Download Notes](/23-24/1Q/vectors/main.pdf)|
 
-  
+## PHeT Simulation on Vector Addition
+
+[https://phet.colorado.edu/en/simulations/vector-addition](https://phet.colorado.edu/en/simulations/vector-addition) <br>
+[Other JS & Java Simulations](https://www.physicsclassroom.com/Teacher-Toolkits/Vectors/Vectors-Complete-ToolKit) 
 {: .fs-5 }
