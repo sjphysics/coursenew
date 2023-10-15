@@ -148,4 +148,14 @@
 	 $$\vec{A} \times (\vec{B} + \vec{C}) = \vec{A} \times \vec{B} + \vec{A} \times \vec{C}$$
 	 As we did with the scalar product, let's do the vector product with the component form of vectors. The most visible one is
 	 $$\hat{i} \times \hat{i} = \hat{j} \times \hat{j} = \hat{k} \times \hat{k} = 0$$
+	 However, for the unit vectors that are perpendicular, we have to use a little more thinking. Imagine, for example, we are trying to find the vector product of $\hat{j}$ and $\hat{k}$. We know that the vector product is perpendicular to the plane containing both vectors meaning it's on the x-axis. So, it is either $\hat{i}$ or -$\hat{i}$. Conventionally, we use a cyclic order:
+	 \begin{center}
+	 	\includegraphics[scale=0.55]{cyclic.png}
+	 \end{center}
+ 	 Consider two vectors shown below
+ 	 $$\vec{A} = A_{x}\; \hat{i} + A_{y}\; \hat{j} + A_{z}\; \hat{k}\; \text{ and } \vec{B} = B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k},$$
+ 	 The vector product is defined as	
+ 	$$\begin{cases} \vec{A} \times \vec{B}  = (A_{x}\; \hat{i} + A_{y}\; \hat{j} + A_{z}\; \hat{k}) \times (B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k}) \\  = A_{x}\; \hat{i} \times (B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k}) + A_{y}\; \hat{j} \times (B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k}) + A_{z}\; \hat{k} \times (B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k}) \\  = A_{x}B_{x}\; \hat{i} \times \hat{i} + A_{x}B_{y}\; \hat{i} \times \hat{j} + A_{z}B_{z}\; \hat{i} \times \hat{k} \\  + A_{y}B_{x}\; \hat{j} \times \hat{i} + A_{y}B_{y}\; \hat{j} \times \hat{j} + A_{y}B_{z}\; \hat{j} \times \hat{k} \\  + A_{z}B_{x}\; \hat{k} \times \hat{i} + A_{z}B_{y}\; \hat{k} \times \hat{j} + A_{z}B_{z}\; \hat{k} \times \hat{k} \\  = A_{x}B_{x}(0) + A_{x}B_{y}(+\hat{k}) + A_{x}B_{z}(-\hat{j}) \\  + A_{y}B_{x}(-\hat{k}) + A_{y}B_{y}(0) + A_{y}B_{z}(+\hat{i}) \\  + A_{z}B_{x}(+\hat{j}) + A_{z}B_{y}(- \hat{i}) + A_{z}B_{z}(0) \end{cases}$$
+ 	Which simplifies to
+ 	$$\vec{C} = \vec{A} \times \vec{B} = (A_{y}B_{z} - A_{z}B_{y})\; \hat{i} + (A_{z}B_{x} - A_{x}B_{z})\; \hat{j} + (A_{x}B_{y} - A_{y}B_{x})\; \hat{k} $$
 \end{document}	
