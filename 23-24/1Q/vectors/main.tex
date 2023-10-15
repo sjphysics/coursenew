@@ -79,4 +79,73 @@
 		\item $\vec{A}+\vec{B}$ Draw the resultant vector $\vec{R}$ along the diagonal of the parallelogram from the common point to the opposite corner. \textit{\textbf{Length R of the resultant vector is not equal to the sum of the magnitudes of the two vectors}}.
 		\item $\vec{A}-\vec{B}$ Draw the difference vector $\vec{D}$ along the diagonal connecting the ends of the vectors. Place the origin of vector $\vec{D}$ at the end of vector $\vec{B}$ and the end of vector $\vec{D}$ at the end of vector $\vec{A}$. \textit{\textbf{Length D of the difference vector is not equal to the difference of magnitudes of the two vectors.}} 
 	\end{itemize} 
+	\subsubsection*{Triangle Method}
+	 Suppose we want to draw the resultant vector of the four vectors shown below. We select any one of the vectors as the first vector and make a parallel translation of a second vector to a position where the tail of the second vector coincides with the head of the first vector. Then, we select a third vector and make a parallel translation of the third vector to a position where the tail of the third vector coincides with the head of the second vector. We repeat this procedure until all the vectors are in a head-to-tail arrangement as shown below.
+	\begin{center}
+		\includegraphics[scale=0.5]{triangle.png}
+	\end{center}
+	The resultant vector is drawn from the tail of the first vector to the head of the last vector in this arrangement.
+	\subsubsection*{Analytical Methods}
+	For daily applications and numerical implementations of vectors, graphical addition doesn't seem to be atop of the options. We would rather use actual defined algebraic representation of vectors which can be implemented through coordinate systems. \\ \\
+	For a simple two dimensional vector, the vector is described by a pair of its vector coordinates. Consider the vector below on the Cartesian plane.
+	\begin{center}
+		\includegraphics[scale=0.6]{2d.png}
+	\end{center}
+	Following the parallelogram rule for vector addition, each vector on a Cartesian plane can be expressed as the vector sum of its vector components
+	$$\vec{A} = \vec{A}_{x} + \vec{A}_{y}$$
+	We usually denote the positive direction on the x-axis by the unit vector $\hat{i}$ and the positive direction on the y-axis by the unit vector $\hat{j}$. Unit vectors of the axes, $\hat{i}$ and $\hat{j}$, define two orthogonal directions in the plane. The x- and y- components of a vector can now be written in terms of the unit vectors of the axes:
+	$$\begin{cases} \vec{A}_{x} = A_{x} \hat{i} \\ \vec{A}_{y} = A_{y} \hat{j} \end{cases}$$
+	For a three dimensional version,
+	$$\begin{cases} \vec{A}_{x} = A_{x} \hat{i} \\ \vec{A}_{y} = A_{y} \hat{j} \\ \vec{A}_{z} = A_{z} \hat{k} \end{cases}$$
+	Thus, the vector can be expressed as
+	$$\vec{A} = A_{x} \hat{i} + A_{y} \hat{j}$$\\
+	For a three dimensional version,
+	$$\vec{A} = A_{x} \hat{i} + A_{y} \hat{j} + A_{z} \hat{k}$$\\
+	\subsection*{More on algebra of vectors}
+	The generalization of the number zero to vector algebra is called the null vector, denoted by  $\vec{0}$. All components of the null vector are zero, $\vec{0}=0\hat{i}+0\hat{j}+0\hat{k}$, so the null vector has no length and no direction.\\ \\
+	Based off of the definition above, two vectors $\vec{A}$ and $\vec{B}$ are equal vectors if and only if their difference is the null vector.
+	$$\vec{0}=\vec{A}-\vec{B}=(A_x-B_x)\hat{i}+(A-y-B_y)\hat{j}+(A_z-B_z)\hat{k}=\vec{0}=0\hat{i}+0\hat{j}+0\hat{k}$$
+	$$\vec{A} = \vec{B} \Leftrightarrow \begin{cases} A_{x} = B_{x} \\ A_{y} = B_{y} \\ A_{z} = B_{z} \end{cases}$$
+	Hence, we can write  $\vec{A}=\vec{B}$ if and only if the corresponding components of vectors $\vec{A}$ and $\vec{B}$ are equal.
+	\subsection*{Product of Vectors}
+	A vector can be multiplied by another vector and there are two kinds of products of vectors used broadly in physics and engineering. One kind of multiplication is a scalar multiplication of two vectors. Taking a \textbf{scalar product} of two vectors results in a number (a scalar), as its name indicates. Scalar products are used to define work and energy relations. For example, the work that a force (a vector) performs on an object while causing its displacement (a vector) is defined as a scalar product of the force vector with the displacement vector. \\ \\ 
+	A quite different kind of multiplication is a \textbf{vector multiplication} of vectors. Taking a vector product of two vectors returns as a result a vector, as its name suggests. Vector products are used to define other derived vector quantities. For example, in describing rotations, a vector quantity, torque is defined as a vector product of an applied force (a vector) and its lever arm (a vector). 
+	\subsubsection*{Scalar Product}
+	\begin{center}
+		\includegraphics[scale=0.5]{dot.png}
+	\end{center}
+	The scalar product $\vec{A}\cdot\vec{B}$ of two vectors $\vec{A}$ and $\vec{B}$ is a number defined by the equation
+	$$\vec{A}\; \cdotp \vec{B} = AB \cos \theta$$
+	Where $\theta$ is the angle between the two vectors.\\ \\
+	In the Cartesian coordinate system, scalar products of the unit vector of an axis with other unit vectors of axes always vanish because these unit vectors are orthogonal.
+	$$\hat{i}\; \cdotp\; \hat{j} = |\hat{i}||\hat{j}| \cos 90^{o} = (1)(1)(0) = 0,$$
+	$$\hat{i}\; \cdotp\; \hat{k} = |\hat{i}||\hat{k}| \cos 90^{o} = (1)(1)(0) = 0,$$
+	$$\hat{k} \cdotp\; \hat{j} = |\hat{k}||\hat{j}| \cos 90^{o} = (1)(1)(0) = 0 $$
+	Since the magnitude of all the unit vectors is 1, we also get
+	$$\hat{i}\; \cdotp\; \hat{i} = i^{2} = \hat{j}\; \cdotp\; \hat{j} = j^{2} = \hat{k}\; \cdotp\; \hat{k} = 1$$
+	As with the definition, we can portray the scalar product as the projection of the first vector over the other.
+	$$\begin{cases} \vec{A}\; \cdotp \vec{B}  = AB \cos \theta \\ \vec{A}\; \cdotp \vec{B} = B(A \cos \theta) = BA_{\parallel} \\ \vec{A}\; \cdotp \vec{B} = A(B \cos \theta) = AB_{\parallel} \ldotp \end{cases}$$
+	For example, in the Cartesian coordinate system in a plane, the scalar x-component of a vector is its dot product with the unit vector $\hat{i}$, and the scalar y-component of a vector is its dot product with the unit vector $\hat{j}$:
+	$$\begin{cases} \vec{A}\; \cdotp\; \hat{i} = |\vec{A}||\hat{i}| \cos \theta_{A} = A \cos \theta_{A} = A \cos \theta_{A} = A_{x} \\ \vec{A}\; \cdotp\; \hat{j} = |\vec{A}||\hat{j}| \cos (90^{o} - \theta_{A}) = A \sin \theta_{A} = A_{y} \end{cases}$$
+	To compute the scalar product of two vectors when they're in their component forms, we can do this. Consider two vectors shown below
+	$$\vec{A} = A_{x}\; \hat{i} + A_{y}\; \hat{j} + A_{z}\; \hat{k}\; \text{ and } \vec{B} = B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k},$$
+	The scalar product is defined as
+	$$\begin{cases} \vec{A}\; \cdotp \vec{B}  = (A_{x}\; \hat{i} + A_{y}\; \hat{j} + A_{z}\; \hat{k})\; \cdotp (B_{x}\; \hat{i} + B_{y}\; \hat{j} + B_{z}\; \hat{k}) \\  = A_{x}B_{x}\; \hat{i}\; \cdotp\; \hat{i} + A_{x}B_{y}\; \hat{i}\; \cdotp\; \hat{j} + A_{x}B_{z}\; \hat{i}\; \cdotp\; \hat{k} \\  + A_{y}B_{x}\; \hat{j} \cdotp\; \hat{i} + A_{y}B_{y}\; \hat{j}\; \cdotp\; \hat{j} + A_{y}B_{z}\; \hat{j} \cdotp\; \hat{k} \\  + A_{z}B_{x}\; \hat{k}\; \cdotp\; \hat{i} + A_{z}B_{y}\; \hat{k}\; \cdotp\; \hat{j} + A_{z}B_{z}\; \hat{k}\; \cdotp\; \hat{k} \ldotp \end{cases}$$
+	The above product simplifies to the answer below
+	$$\vec{A}\; \cdotp \vec{B} = A_{x}B_{x} + A_{y}B_{y} + A_{z}B_{z}$$
+	\subsubsection*{Vector Product}
+	\begin{center}
+		\includegraphics[scale=0.5]{cross.png}
+	\end{center}
+	 The vector product of two vectors $\vec{A}$ and $\vec{B}$ is denoted by $\vec{A}\times\vec{B}$ and is often referred to as a cross product. The vector product is a vector that has its direction perpendicular to both vectors  $\vec{A}$ and $\vec{B}$. In other words, vector $\vec{A}\times\vec{B}$ is perpendicular to the plane that contains vectors $\vec{A}$ and $\vec{B}$. The magnitude of the vector product is defined as
+	 $$|\vec{A} \times \vec{B}| = AB \sin \theta$$
+	 In another way, we can define the vector $\vec{A}\times\vec{B}$ as follows
+	 $$\vec{A}\times\vec{B}=AB \sin \theta \hat{n}$$
+	 Where $\hat{n}$ is a unit vector perpendicular to the plane that contains vectors $\vec{A}$ and $\vec{B}$. \\ \\
+	 Unlike scalar product, the vector product is not commutative. In fact, it is anti-commutative:
+	 $$\vec{A} \times \vec{B} = - \vec{B} \times \vec{A} $$
+	 Similar to the dot product, the cross product has the following distributive property:
+	 $$\vec{A} \times (\vec{B} + \vec{C}) = \vec{A} \times \vec{B} + \vec{A} \times \vec{C}$$
+	 As we did with the scalar product, let's do the vector product with the component form of vectors. The most visible one is
+	 $$\hat{i} \times \hat{i} = \hat{j} \times \hat{j} = \hat{k} \times \hat{k} = 0$$
 \end{document}	
