@@ -16,7 +16,7 @@ date: 2023-09-18
 | Resource        | View          | Download |
 |:-------------|:------------------|:------|
 | Royal Institute Physics Playlist| [View the playlist](https://youtube.com/playlist?list=PLbnrZHfNEDZzxswBf5WhzbIDTInJOgCIP&si=Y1JpNC8rzdcAo4Jn) | _Download Not Available_ |
-| Physics and Human Society Slides | [View Notes](/23-24/1Q/physics-society/slides.html) |  [Download Notes](/23-24/1Q/physics-society/slides.pdf)|
+| Physics and Human Society Slides | [View Slides](/23-24/1Q/physics-society/slides.html) |  [Download Slides](/23-24/1Q/physics-society/slides.pdf)|
 | Physics and Human Society Notes | [View Notes](/23-24/1Q/physics-society/notes.html) |  [Download Notes](/23-24/1Q/physics-society/notes.pdf)|
 
 <br>
