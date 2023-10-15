@@ -9,7 +9,7 @@ date: 2023-10-09
 
 | Resource        | View          | Download |
 |:-------------|:------------------|:------|
-| Khan Academy Vector Algebra Playlist| [View the playlist](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:vectors) | _Download Not Available_ |
+| Khan Academy Vectors Playlist| [View the playlist](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:vectors) | _Download Not Available_ |
 | Vector Algebra Slides | [View Slides](/23-24/1Q/vectors/slides.html) |  [Download Slides](/23-24/1Q/vectors/slides.pdf)|
 | Vector Algebra Notes | [View Notes](/23-24/1Q/vectors/main.html) |  [Download Notes](/23-24/1Q/vectors/main.pdf)|
 
