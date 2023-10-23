@@ -1,0 +1,147 @@
+\documentclass[12pt,addpoints]{exam}
+%\usepackage{enumitem}
+\usepackage{amsfonts,amssymb,amsmath, amsthm}
+\usepackage{graphicx}
+\usepackage{systeme}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepgfplotslibrary{fillbetween}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+\date{October, 2023}
+\pagestyle{headandfoot}
+%\firstpageheadrule
+\runningheader{1st Quarter Midterm Examination}{}{Page \thepage\ of \numpages}
+\runningheadrule
+\firstpagefooter{}{}{}
+\runningfooter{By Aaron G.K.}{}{Page \thepage\ of \numpages}
+\begin{document}
+	\title{St John Baptist De La Salle Catholic School, Addis Ababa\\
+		\large Grade 11 Physics Midterm Examination \\
+		$1^\text{st}$ Quarter}
+	\maketitle
+	\begin{center}
+		\fbox{\fbox{\parbox{6in}{\centering
+					Notes, and use of other aids is \textbf{NOT} allowed.  Read all directions carefully and \textbf{write your answers in the answer sheet}.  To receive full credit, you must show all of your work.
+	}}}	\end{center}
+	{Name:\underline{\hspace{2in}}\text{     }{Roll Number:\underline{\hspace{0.5in}}\text{     }{Section:\underline{\hspace{0.3in}}{Time Allowed: \bf{45  min}}
+				\subsubsection*{Multiple Choice Questions}
+				\begin{questions}
+					\question Which of the following passwords would be computationally secure?\\
+					\begin{oneparchoices}
+						\choice A three digit number
+						\choice A 40 digit alphanumeric password \\
+						\choice A one digit number
+						\choice The password 'password'
+					\end{oneparchoices}
+					\\ \textbf{Answer : B}
+					\question Which of the following steps in the scientific process comes later compared to the others? \\
+					\begin{oneparchoices}
+						\choice Hypothesizing
+						\choice Questioning
+						\choice Analysis
+						\choice Experimentation
+					\end{oneparchoices}
+					\\ \textbf{Answer : C}	
+					\question Which of the following fields of physics was a topic of the Nobel Prize in Physics this year? \\
+					\begin{oneparchoices}
+						\choice Quantum Optics
+						\choice Astronomy
+						\choice High energy physics
+						\choice Biophysics
+					\end{oneparchoices}
+					\\ \textbf{Answer : A}
+					\question Let $\vec{C}=\vec{A}+\vec{B}$. In which of the following conditions is $|\vec{C}|$ maximum? \\
+					\begin{oneparchoices}
+						\choice $\vec{A}\parallel\vec{B}$
+						\choice $\vec{A}\perp\vec{B}$
+						\choice $\vec{A}=\vec{B}$
+						\choice None of the above
+					\end{oneparchoices}
+					\\ \textbf{Answer : A}
+					\question If the vector $6\hat{i}-4\hat{j}$ starts at the point $P =(-2,5,-1)$, at what point does it end? \\
+					\begin{oneparchoices}
+						\choice (-4,1,1)
+						\choice (4,-1,1)
+						\choice (4,1,-1)
+						\choice (-4,-1,-1)
+					\end{oneparchoices}
+					\\ \textbf{Answer : C}
+					\question Which of the following vectors are parallel? \\
+					\begin{oneparchoices}
+						\choice $9\hat i - 6\hat j - 24\hat k$ and $-15\hat i+ 10\hat j+ 40\hat k$
+						\choice $\hat i + \hat j$ and $\hat j+ \hat k$ \\
+						\choice $2\hat i$ and $4\hat k$
+						\choice None of the above
+					\end{oneparchoices}
+					\\ Full Credit is given for those who choose \textbf{A}, but half credit is given to those who choose \textbf{D}. That is because one might assume since the vectors are in opposite directions, they are anti-parallel an not parallel.
+					\question Let $\vec u = 8\vec i - \vec j + 3\vec k$ and $\vec v = 7\vec j - 4\vec k$. Which of the following is equal to $| { - 9\vec v - 2\vec u}|$? \\
+					\begin{oneparchoices}
+						\choice $\sqrt{2893}$
+						\choice $\sqrt{4877}$
+						\choice 26
+						\choice 90
+					\end{oneparchoices}
+					\\ \textbf{Answer : B}
+					\question If the magnitude of $|\vec{A}+\vec{B}|$ is equal to the magnitude of $|\vec{A}-\vec{B}|$, what is the angle between $\vec{A}$ and $\vec{B}$? \\
+					\begin{oneparchoices}
+						\choice $\dfrac{\pi}{6}$
+						\choice $\dfrac{\pi}{4}$
+						\choice $\dfrac{\pi}{3}$
+						\choice $\dfrac{\pi}{2}$
+					\end{oneparchoices}
+					\\ \textbf{Answer : D}
+					\question Which of the following is a vector quantity? \\
+					\begin{oneparchoices}
+						\choice Current Density
+						\choice Speed
+						\choice Power
+						\choice Volume
+					\end{oneparchoices}
+					\\ \textbf{Answer : A}
+					\question If three vectors sum up to zero, what can we say about the vectors? \\
+					\begin{oneparchoices}
+						\choice The vectors must be collinear
+						\choice The vectors must be coplanar \\
+						\choice All three vectors must be equal
+						\choice All three vectors must be orthogonal to each other
+					\end{oneparchoices}
+					\\ \textbf{Answer : B}
+					\subsubsection*{Workout Problems}
+					\question Let $\vec{A}=4\hat i+ 3\hat j$, $\vec{B}=6\hat i+ 6\hat j$. If $\vec A\cdot \vec B=40$, what is the angle between the vectors $\vec{A}$ and $\vec{B}$. \\ \\
+					Unfortunately, there has been an error in this question and disregarding the given dot product $\vec A\cdot \vec B=40$ --
+					$$\cos\theta=\dfrac{\vec A\cdot\vec B}{AB}=\dfrac{(4)(6)+(3)(6)}{(5)(6\sqrt{2})}$$
+					If you used the given dot product instead, I will also grade it as such.
+					\question If $|\vec{A}|=2$, $|\vec{B}|=7$. Find the angle between the vectors $\vec{A}$ and $\vec{B}$ if $|\vec{A} + \vec{B}|=9$  and $|\vec{A} - \vec{B}|=9$. Show all your steps.\\ \\
+					Unfortunately, there is also an error in this question and disregard the $|\vec{A} - \vec{B}|=9$ part - we can solve it as follows -
+					$$|\vec A+\vec B|^2=A^2+B^2+2AB\cos\theta$$
+					$$\cos\theta=\dfrac{|\vec A+\vec B|^2-(A^2+B^2)}{2AB}$$
+					\question Let $\vec{U}=2\hat i+ 3\hat j$ +4$\hat{k}$ and $\vec{V}=\hat i+ 2\hat j+4\hat k$. What is the projection of $\vec{B}$ along $\vec{A}$? What about the component of $\vec{A}$ along $\vec{B}$? \\ \\
+					Another unfortunate typo here - I meant projection of $\vec{V}$ along $\vec{U}$.
+					$$\textbf{proj}^{\vec{V}}_{\vec{U}}=\dfrac{\vec{V}\cdot\vec{U}}{U^2}\vec{U}$$
+					\question The scalar triple product of three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ is defined as $(\vec{a} \times \vec{b}) \cdot \vec{c}$. Let there be three vectors $\vec a$, $\vec b$, and $\vec c$ with equal magnitudes, M. If the vectors $\vec{a}$ and $\vec{b}$ have a separation angle of $\dfrac{\pi}{3}$, and $\vec{b}\times\vec{a}$ makes an angle of $\dfrac{\pi}{4}$ to $\vec{c}$, compute the scalar triple product.\\ \\
+					$$(\vec{a} \times \vec{b}) \cdot \vec{c}$$
+					$$|\vec{a} \times \vec{b}||\vec{c}|\cos\theta \text{ such that }\theta\text{ is the angle between }\vec{a}\times\vec{b}\text{ \& }\vec{c}$$
+					But, $|\vec{a}\times\vec{b}|=|\vec{a}||\vec{b}|\sin\alpha$ - such that $\alpha$ is the angle between $\vec{a}$ and $\vec{b}$. So, 
+					$$|\vec{a} \times \vec{b}||\vec{c}|\cos\theta$$	
+					$$|\vec{a}||\vec{b}|\sin\alpha|\vec{c}|\cos\theta$$
+					$$|\vec{a}||\vec{b}||\vec{c}|\sin\alpha\cos\theta$$
+					The angle between $\vec{b}\times\vec{a}$ and $\vec{c}$ is $\dfrac{\pi}{4}$ which makes the angle between $\dfrac{3\pi}{4}$. We have also mentioned that all three vectors have the same magnitude, M - so, it becomes
+					$$(M)(M)(M)\sin(\dfrac{\pi}{3})\cos(\dfrac{3\pi}{4})$$
+					$$(M^3)(\frac{\sqrt{3}}{2})(-\frac{\sqrt{2}}{2})$$
+					$$-(\frac{\sqrt{6}}{4}M^3)$$
+					\question Find the work done against gravity to move a 15 kg baby from the point (3,4) to (8,12).(Assume $g=9.8\hat{j} m/s^2$) \\ \\
+					Find the displacement vector first; $\vec{r}=(8-3)\hat{i}+(12-4)\hat{j}$, which is $\vec{r}=5\hat{i}+8\hat{j}$.
+					The force, however is - $\vec{F}=(15kg)9.8m/s^2\hat{j}=147N\hat{j}$
+					$$W=\vec{F}\cdot\vec{r}$$
+					Complete the rest
+				\end{questions}
+			\end{document}
