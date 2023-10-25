@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  25 OCT 2023 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  25 OCT 2023 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -889,7 +889,7 @@ This exam has a total of 0 bonus points.
 Here is how much of TeX's memory you used:
  26380 strings out of 477221
  670679 string characters out of 2825849
- 1116884 words of memory out of 3000000
+ 1115884 words of memory out of 3000000
  47184 multiletter control sequences out of 15000+600000
  479027 words of font info for 68 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -905,7 +905,7 @@ s/cm/cmr6.pfb></home/aaron/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmr8.pfb></home/aaron/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></home/aaron/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb>
-Output written on coordinate_systems.pdf (7 pages, 987078 bytes).
+Output written on coordinate_systems.pdf (7 pages, 988640 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
