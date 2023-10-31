@@ -4,6 +4,15 @@ week: 6
 date: 2023-10-30
 ---
 
+## Homework 3
+
+[Download HW3](/23-24/1Q/hw3/main.pdf)
+{: .label .label-yellow }
+
+[View HW3](/23-24/1Q/hw3/main.html)
+{: .label .label-yellow }
+
+
 ## Particle Physics
 
 [HEP Slides](/23-24/1Q/hep/slides.pdf)
