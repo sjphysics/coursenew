@@ -6,7 +6,7 @@ date: 2023-10-30
 
 ## Particle Physics
 
-[HEP Slides](/23-24/1Q/standard_model_slides.pdf)
+[HEP Slides](/23-24/1Q/hep/slides.pdf)
 {: .label .label-yellow }
 
 [HEP Live Link](https://docs.google.com/presentation/d/e/2PACX-1vSL4yW9VZBdbUUu4K7BUT5HGQz0d0ttSo-h7QvdE7nMRJjgs4IZp4wEdzZqlEVYK7ARG3qBzHbSkvZ2/pub?start=false&loop=false&delayms=3000)
