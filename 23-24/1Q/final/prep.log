@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.8.14)  12 NOV 2023 08:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.8.14)  12 NOV 2023 08:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,15 +790,15 @@ LaTeX Warning: No \author given.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-This exam contains 22 questions with 0 parts, 0 subparts, and 0 subsubparts.
-This exam has a total of 1 points.
+This exam contains 21 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
 (./prep.aux) ) 
 Here is how much of TeX's memory you used:
- 25615 strings out of 481239
- 642627 string characters out of 5920377
+ 25607 strings out of 481239
+ 642495 string characters out of 5920377
  994337 words of memory out of 5000000
- 40464 multiletter control sequences out of 15000+600000
+ 40456 multiletter control sequences out of 15000+600000
  541178 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,10n,119p,725b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -809,7 +809,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on prep.pdf (2 pages, 76351 bytes).
+Output written on prep.pdf (2 pages, 76065 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
