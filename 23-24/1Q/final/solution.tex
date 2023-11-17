@@ -322,20 +322,63 @@
 					\end{choices}
 					\textbf{Answer: B}
 					\subsection*{Free Response Problems}
-					\question[1] Out of the 4 fundamental interactions, state which ones neutrinos interact through. Explain why neutrinos are ironically perfect for astronomy. \vspace{1.5in}
-					\question[1] Given the points O(0, 0, 0), P(1, 2, 3), Q(1, 1, 2), R(2, 1,1), find the volume of the parallelepiped with edges $\overrightarrow{OP}$, $\overrightarrow{OQ}$, and $\overrightarrow{OR}$.\vspace{1.5in}
+					\question[1] Out of the 4 fundamental interactions, state which ones neutrinos interact through. Explain why neutrinos are ironically perfect for astronomy. \\ \\
+					We know that leptons interact through every fundamental interaction except the strong interaction. However, since neutrinos happen to be neutral leptons, they also don't interact through electromagnetism. The fact that they are very little, neutral and barely interact with anything while being so abundant throughout the whole universe makes them a great choice for observational astronomy.
+					\question[1] Given the points O(0, 0, 0), P(1, 2, 3), Q(1, 1, 2), R(2, 1,1), find the volume of the parallelepiped with edges $\overrightarrow{OP}$, $\overrightarrow{OQ}$, and $\overrightarrow{OR}$. \\ 
+					$$\overrightarrow{OP}=\hat{i}+2\hat{j}+3\hat{k}\text{ \& }\overrightarrow{OQ}=\hat{i}+\hat{j}+2\hat{k}\text{ \& }\overrightarrow{OR}=2\hat{i}+\hat{j}+\hat{k}$$
+					Finding the volume of the parallelepiped is basically finding the cross product of two of the vectors and then computing the dot product of the result with the third vector. In other words, it is:
+					$$(\overrightarrow{OP}\times\overrightarrow{OQ})\cdot\overrightarrow{OR}=((\hat{i}+2\hat{j}+3\hat{k})\times(\hat{i}+\hat{j}+2\hat{k}))\cdot(2\hat{i}+\hat{j}+\hat{k}) $$ 
+					When you compute the result it becomes $\pm2$
 					\question[1] Find a vector $\vec{u}$ with its given magnitude and that satisfies the following conditions 3 conditions.
 					\begin{itemize}
 						\item $\vec b=(2\sin t)\hat{i}+(2\cos t)\hat{j}+\hat{k}$
 						\item $|\vec u|=2$ 
 						\item $\vec{u}$ and $\vec{b}$ are anti-parallel.
 					\end{itemize}
-					\vspace{1.4in}
-					\question[1] Starting at time $t = 0$, an object moves along a straight line. Its coordinate in meters is given by $x(t) = 75t-1.0t+3$, where $t$ is in seconds. What is the acceleration of this object when it momentarily stops?\vspace{1.5in}
-					\question[1] Two automobiles are 180 kilometers apart and traveling toward each other. One automobile is moving at 50 km/h and the other is moving at 40 km/h. In how many hours will they meet?\vspace{2.5in}
-					\question[2] Starting at time $t = 0$, an object moves along a straight line with velocity in $m/s$ given by $v(t) = 98-3t^2$, where t is in seconds. At $t=0$, the object was at a position, $s(0)=-28$. What are the position and acceleration of this object when it momentarily comes to rest.\vspace{1.5in}
-					\question[1] What is the acceleration of a car that moves at a steady velocity of 100 km/h for 100 seconds?\vspace{1in}
-					\question[1] Is it possible for a helicopter to have an acceleration due east and a velocity due west? If so, what would be going on? If not, why not?\vspace{1in}
-					\question[1] What is the value of $\hat{i}\cdot(\hat{j}\times\hat{k})$?\vspace{1.3in}
+					The simplest way to compute the solution for this is to find $\hat{b}$ and then multiply is by 2 so that the vector $\vec{u}$ has a magnitude of 2 and then again multiply that by negative 1 so that the two vectors are antiparallel. Simply put,
+					$$\vec{u}=-2\hat{b}$$
+					$$\vec{u}=-2\dfrac{\vec{b}}{|\vec{b}|}$$
+					We then need to find $|\vec{b}|$, which is
+					$$|\vec{b}|=\sqrt{(2\sin t)^2+(2\cos t)^2+(1)^2}$$
+					$$|\vec{b}|=\sqrt{4\sin^2 t+4\cos^2 t+1}=\sqrt{4(\sin^2 t+\cos^2 t)+1}=\sqrt{5}$$
+					Now that we have found $|\vec{b}|$, we can find our need vector $\vec{u}$:
+					$$\vec{u}=-2\dfrac{\vec{b}}{|\vec{b}|}$$
+					$$\vec{u}=-2\dfrac{(2\sin t)\hat{i}+(2\cos t)\hat{j}+\hat{k}}{\sqrt{5}}$$
+					\question[1] Starting at time $t = 0$, an object moves along a straight line. Its coordinate in meters is given by $x(t) = 75t-1.0t+3$, where $t$ is in seconds. What is the acceleration of this object when it momentarily stops?\\ \\
+					First we need to find $v(t)$ and $a(t)$.
+					$$v(t)=\dfrac{dx(t)}{dt}=\dfrac{75t-1.0t+3}{dt}=75-1.0=74m/s$$
+					$$a(t)=\dfrac{dv(t)}{dt}=\dfrac{74t^0}{dt}=0$$
+					Since the acceleration of the object is always zero, it is also zero when it momentarily stops.
+					\question[1] Two automobiles are 180 kilometers apart and traveling toward each other. One automobile is moving at 50 km/h and the other is moving at 40 km/h. In how many hours will they meet? \\ \\
+					Let's consider the one traveling at 50km/h is to the right and the one traveling at 40km/h is to the left. One thing we know for sure is that when they meet, the sum of the distances they will have covered is 180 km. So, based off of that, let's assume the distance traveled by the automobile going to the right is $x$ while the one going to the left is $y$. We know that the following statement is true,
+					$$x+y=180$$
+					$$50t+40t=180$$
+					$$90t=180$$
+					$$t=2 \text{ hours}$$
+					\question[2] Starting at time $t = 0$, an object moves along a straight line with velocity in $m/s$ given by $v(t) = 98-3t^2$, where t is in seconds. At $t=0$, the object was at a position, $s(0)=-28$. What are the position and acceleration of this object when it momentarily comes to rest.
+					$$s(t)=\int v(t)dt$$
+					$$s(t)=\int (98-3t^2)dt$$
+					$$s(t)=98t-t^3+C$$
+					But, we do know that the constant $C=s(0)$. So, our equation becomes
+					$$s(t)=98t-t^3+s(0)$$
+					$$s(t)=98t-t^3-28$$
+					As for the acceleration,
+					$$a(t)=\dfrac{dv(t)}{dt}=\dfrac{98-3t^2}{dt}=-6t$$
+					When the object momentarily comes to rest, it means that its velocity is 0 at that instant,
+					$$v(t)=0$$
+					$$98-3t^2=0\implies t^2-\dfrac{98}{3}=0$$
+					So, we know that
+					$$t=\sqrt{\dfrac{98}{3}}\text{ or }t=-\sqrt{\dfrac{98}{3}}$$
+					We obviously take the positive value of $t$ and plug that it into the $s(t)$ and a(t) values we have come up with. When the car has momentarily come to rest,
+					$$a=-6(\sqrt{\dfrac{98}{3}})$$
+					$$s=98(\sqrt{\dfrac{98}{3}})-(\sqrt{\dfrac{98}{3}})^3-28$$
+					\question[1] What is the acceleration of a car that moves at a steady velocity of 100 km/h for 100 seconds? \\ \\
+					The key word here is "steady". It doesn't matter what the velocity of the car is, as long as it is steady for a given time frame, the acceleration is \textbf{0}.
+					\question[1] Is it possible for a helicopter to have an acceleration due east and a velocity due west? If so, what would be going on? If not, why not? \\
+					Absolutely, yes. An acceleration due East basically means the velocity will be increasing in the eastwards direction. For instance, when the helicopter was traveling to the west and the pilot applied brakes, we have an acceleration due east.
+					\question[1] What is the value of $\hat{i}\cdot(\hat{j}\times\hat{k})$?
+					$$\hat{i}\cdot(\hat{j}\times\hat{k})$$
+					$$\hat{i}\cdot(\hat{i})$$
+					$$1$$
 				\end{questions}
 			\end{document}
