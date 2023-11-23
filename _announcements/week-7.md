@@ -1,7 +1,7 @@
 ---
 title: Week of November 6
 week: 7
-date: 2023-10-30
+date: 2023-11-06
 ---
 
 ## Final Prep Questions
