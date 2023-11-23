@@ -8,7 +8,7 @@ date: 2023-11-06
 [View Final Prep](/23-24/1Q/final/prep.html)
 {: .label .label-yellow }
 
-[Donwload Final Prep](/23-24/1Q/final/prep.pdf)
+[Download Final Prep](/23-24/1Q/final/prep.pdf)
 {: .label .label-yellow }
 
 [View Final Prep Lite Version](/23-24/1Q/final/prep-lite.html)
