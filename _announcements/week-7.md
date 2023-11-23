@@ -1,6 +1,6 @@
 ---
 title: Week of November 6
-week: 6
+week: 7
 date: 2023-10-30
 ---
 
