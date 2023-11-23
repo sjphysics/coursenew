@@ -13,6 +13,13 @@ date: 2023-11-20
 | Motion with Constant Acceleration | [Read the Sections Online](https://openstax.org/books/university-physics-volume-1/pages/3-4-motion-with-constant-acceleration) | _Download Not Available_ |
 | Free Fall   | [Read the Sections Online](https://openstax.org/books/university-physics-volume-1/pages/3-5-free-fall) | _Download Not Available_ |
 
+## Final Exam Solutions
+[View Final Solution](/23-24/1Q/final/solution.html)
+{: .label .label-yellow }
+
+[Donwload Final Prep](/23-24/1Q/final/solution.pdf)
+{: .label .label-yellow }
+
 ## Motion in One Dimension
 
 | Resource        | View          | Download |
