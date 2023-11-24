@@ -13,12 +13,12 @@ Here are documents I prepared that outline your new groups.
 
 ### 11 A
 
-[Download(pdf)](/23-24/1Q/groups/A.pdf)
+[Download(pdf)](/23-24/groups/A.pdf)
 {: .label .label-yellow }
 
 ### 11 B 
 
-[Download(pdf)](/23-24/1Q/groups/B.pdf)
+[Download(pdf)](/23-24/groups/B.pdf)
 {: .label .label-yellow }
 
 ## OpenStax Reading Sections Motion in One Dimension
