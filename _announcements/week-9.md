@@ -6,6 +6,21 @@ date: 2023-11-20
 
 **Note:** Downloading the specific pages from OpenStax is not optimal, however, you can download the Book _**University Physics Volume 1**_ by following this [link](https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf). 
 
+
+## New Groups formed for ANY group tasks
+
+Here are documents I prepared that outline your new groups.
+
+### 11 A
+
+[Download(pdf)](/23-24/1Q/groups/A.pdf)
+{: .label .label-yellow }
+
+### 11 B 
+
+[Download(pdf)](/23-24/1Q/groups/B.pdf)
+{: .label .label-yellow }
+
 ## OpenStax Reading Sections Motion in One Dimension
 
 | Resource        | View          | Download |
