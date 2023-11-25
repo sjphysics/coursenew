@@ -7,6 +7,19 @@ date: 2023-11-20
 **Note:** Downloading the specific pages from OpenStax is not optimal, however, you can download the Book _**University Physics Volume 1**_ by following this [link](https://assets.openstax.org/oscms-prodcms/media/documents/UniversityPhysicsVol1-WEB.pdf). 
 
 
+## Homework 1
+
+Here is [homework 1](https://forms.gle/tJbaYe74m58Dw8BX9). Unlike the previous homework projects, this one will be completed online. It contains 59 multiple choice questions.
+
+Although all questions are multiple choice, you are supposed to scan and send in your scrap book that you did the work on. You should use your exercise book (preferably, the back) as the scrap book and then you should take the image of that and attach it to the end of this form to receive full credit.
+
+Here is a link to the homework: [https://forms.gle/tJbaYe74m58Dw8BX9](https://forms.gle/tJbaYe74m58Dw8BX9)
+
+The internet at the school data center has been fixed, so you can go there and work on this homework there.
+
+You need to use your school email to submit the form. If you still get permission errors while trying to access the form after using your school email, try opening an incognito window and doing the whole thing again.
+
+
 ## New Groups formed for ANY group tasks
 
 Here are documents I prepared that outline your new groups.
