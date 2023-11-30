@@ -17,6 +17,14 @@ date: 2023-11-27
 {: .label .label-yellow }
 
 
+## Very Useful PHeT Simulations
+
+[Calculus Grapher on PHeT](https://phet.colorado.edu/en/simulations/calculus-grapher)
+{: .label .label-yellow }
+
+[Graphing Lines on PHeT](https://phet.colorado.edu/en/simulations/graphing-lines)
+{: .label .label-yellow }
+
 ## OpenStax Reading Sections Motion in One Dimension
 
 | Resource        | View          | Download |
