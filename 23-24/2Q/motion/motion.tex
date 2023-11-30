@@ -56,7 +56,16 @@
 	$$\text{average acceleration} = a_{ave} = \dfrac{\Delta v}{\Delta t} = \dfrac{v_f-v_o}{t_f-t_o}$$
 	And, as before, we use calculus to extend this notion of average acceleration to instantaneous acceleration, which we describe as the amount that our object is speeding up or slowing down at a single moment in time:
 	\begin{align} \text{instantaneous acceleration} = a = \lim_{\Delta t \rightarrow 0} \dfrac{\Delta v}{\Delta t} &= \dfrac{dv}{dt} \\[5pt] &= \dfrac{d^2x}{dt^2}\end{align}
-	Now that we have the basics covered, let's go over the rest
+	Now that we have the basics covered, let's go over some of the important analytical parts.
+	\begin{center}
+		\subsection*{Equations of Motion}
+	\end{center}
+	It is important to note that we are not yet dealing with causes for these motions, but only the motions themselves, hence, we call the topic of our current study \textit{kinematics}. We will mostly only deal with constant accelerations, and since instantaneous acceleration is the derivative of velocity, it is not difficult to integrate(\textit{compute the anti-derivative}) it to get the instantaneous velocity as a function of time:
+	$$\left. \begin{array}{l} a = \dfrac{dv}{dt}\;\;\; \Rightarrow \;\;\;v\left( t \right) = \int {a\;dt} = at + const \;\\ const = v\left( 0 \right) \equiv {v_i} \end{array} \right\}\;\;\;v\left( t \right) = at + {v_i}$$
+	The constant of integration is found by plugging  $t=0$
+	into the above equation, which results in the velocity of the object at the starting time, which is typically designated as $v_i$. \\ \\
+	We can perform the exact steps again to obtain the equation of motion for position as a function of time, since we know how it relates to the instantaneous velocity:
+	$$\left. \begin{array}{l} v = \dfrac{dx}{dt}\;\;\; \Rightarrow \;\;\;x\left( t \right) = \int {vdt} = \int {\left( {at + {v_i}} \right)dt} = \frac{1}{2}a{t^2} + {v_i}t + const \;\\ const = x\left( 0 \right) \equiv {x_i} \end{array} \right\}\;\;\;x\left( t \right) = \frac{1}{2}a{t^2} + {v_i}t + {x_i}$$
 	
 	
 
