@@ -14,7 +14,7 @@
 	a4paper,
 	total={170mm,257mm},
 	left=20mm,
-	top=7mm,
+	top=15mm,
 }
 \pagestyle{headandfoot}
 %\firstpageheadrule
@@ -58,7 +58,7 @@
 	\begin{align} \text{instantaneous acceleration} = a = \lim_{\Delta t \rightarrow 0} \dfrac{\Delta v}{\Delta t} &= \dfrac{dv}{dt} \\[5pt] &= \dfrac{d^2x}{dt^2}\end{align}
 	Now that we have the basics covered, let's go over some of the important analytical parts.
 	\begin{center}
-		\subsection*{Equations of Motion}
+		\subsection*{Equations of Uniformly Accelerated Motion}
 	\end{center}
 	It is important to note that we are not yet dealing with causes for these motions, but only the motions themselves, hence, we call the topic of our current study \textit{kinematics}. We will mostly only deal with constant accelerations, and since instantaneous acceleration is the derivative of velocity, it is not difficult to integrate(\textit{compute the anti-derivative}) it to get the instantaneous velocity as a function of time:
 	$$\left. \begin{array}{l} a = \dfrac{dv}{dt}\;\;\; \Rightarrow \;\;\;v\left( t \right) = \int {a\;dt} = at + const \;\\ const = v\left( 0 \right) \equiv {v_i} \end{array} \right\}\;\;\;v\left( t \right) = at + {v_i}$$
@@ -66,7 +66,27 @@
 	into the above equation, which results in the velocity of the object at the starting time, which is typically designated as $v_i$. \\ \\
 	We can perform the exact steps again to obtain the equation of motion for position as a function of time, since we know how it relates to the instantaneous velocity:
 	$$\left. \begin{array}{l} v = \dfrac{dx}{dt}\;\;\; \Rightarrow \;\;\;x\left( t \right) = \int {vdt} = \int {\left( {at + {v_i}} \right)dt} = \frac{1}{2}a{t^2} + {v_i}t + const \;\\ const = x\left( 0 \right) \equiv {x_i} \end{array} \right\}\;\;\;x\left( t \right) = \frac{1}{2}a{t^2} + {v_i}t + {x_i}$$
-	
+	Bear in mind that if we have all the details of this last equation, we can obtain the velocity equation above simply by taking a derivative. We cannot go in the opposite direction without also obtaining the starting position. \\ \\
+	Let’s take a look at the common numbers we can encounter in a constant-acceleration situation:
+	\begin{itemize}
+		\item independent variable: $t$
+		\item dependent variables:  $x$, $v$
+		\item constants of the motion:  $x_i$, $v_i$, $a$ (acceleration is constant by assumption)
+	\end{itemize}
+	The most common useful re-combining of these variables involves eliminating time from the two equations, since you may be given velocities and positions. The algebra is straightforward:
+	$$\left. \begin{array}{l} v_f = at + v_i \;\Rightarrow \;t = \dfrac{v_f - v_i}{a}\\ x_f - x_i = \frac{1}{2}a{t^2} + {v_i}t \end{array} \right\} \;\;\; x_f - x_i = \frac{1}{2}a \left( \dfrac{v_f - v_i}{a} \right)^2 + v_i \left( \dfrac{v_f - v_i}{a} \right) \;\;\;\Rightarrow \;\;\; 2a \left( x_f - x_i \right) = {v_f}^2 - {v_i}^2$$
+	You can think of this equation as the “before/after” equation, because it deals only with starting and ending positions and velocities, and has eliminated time as an input variable.
+	$${v_{ave}} = \dfrac{x_f - x_i}{t} = \dfrac{x \left( t \right) - x_i}{t}\;\;\;\Rightarrow \;\;\; x \left( t \right) = v_{ave}t + x_i$$
+	$${v_{ave}} = \dfrac{x_f - x_i}{t} = \dfrac{\frac{1}{2}a{t^2} + {v_i}t}{t} = \frac{1}{2}at + v_i = \frac{1}{2}\left( v_f - v_i \right) + v_i \;\;\; \Rightarrow \;\;\; v_{ave} = \dfrac{v_i + v_f}{2}$$
+	$$x \left( t \right) = (\dfrac{v_i + v_f}{2})t + x_i$$
+	\begin{center}
+		\subsection*{Free-Fall}
+	\end{center}
+	Assuming air resistance has a small effect (remember, we are devising a simplified model here), then it turns out (as shown by Galileo dropping stones from the Tower of Pisa, and more dramatically in the demonstration) that objects all accelerate at the same constant rate as they fall to Earth. This rate of acceleration is commonly given the symbol $g$, and it has the value:
+	$$\text{acceleration due to gravity near the surface of the earth}=g=9.8m/s^2$$
+	This acceleration is of course always directed downward, and depending on our choice of coordinate system \& reference frames, this can be either positive or negative, that is $a=\pm g$. Once the coordinate system is selected, the sign for $a$ stays the same no matter which way the object is moving. \\ \\
+	If the positive direction is chosen to be upward, and the object is moving upward, then its velocity is positive and the negative value of $a$
+	leads to a slowing of the object’s motion. If it is moving down, then its velocity is negative, and the negative acceleration leads to the velocity becoming more negative (i.e. it is speeding up).
 	
 
 \end{document}	

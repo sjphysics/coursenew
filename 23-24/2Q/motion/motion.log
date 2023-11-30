@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  30 NOV 2023 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  30 NOV 2023 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -766,14 +766,14 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
-* v-part:(T,H,B)=(19.91692pt, 731.23582pt, 93.8941pt)
+* v-part:(T,H,B)=(42.67912pt, 731.23582pt, 71.1319pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69684pt
 * \textheight=731.23582pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-82.35307pt
+* \topmargin=-59.59087pt
 * \headheight=15.0pt
 * \headsep=15.0pt
 * \topskip=12.0pt
@@ -814,7 +814,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
+
+ []
+
+
+Overfull \hbox (44.99904pt too wide) detected at line 77
+[]    \OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 x[] \OT1/cmr/m
+/n/12 = []\OML/cmm/m/it/12 a [][] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 v[] []    
+\OMS/cmsy/m/n/12 )    \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 a [] \OT1/cmr/m/n/12 = 
+[][] \OMS/cmsy/m/n/12 ^^@ [][]
+ []
+
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 86--90
+
+ []
+
+[3]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
@@ -825,26 +843,27 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26286 strings out of 476517
- 667705 string characters out of 5797388
- 1935555 words of memory out of 5000000
- 47804 multiletter control sequences out of 15000+600000
- 567563 words of font info for 75 fonts, out of 8000000 for 9000
+ 26291 strings out of 476517
+ 667799 string characters out of 5797388
+ 1939555 words of memory out of 5000000
+ 47808 multiletter control sequences out of 15000+600000
+ 567900 words of font info for 76 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 69i,10n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></h
-ome/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></hom
-e/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/
-user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/use
-r1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/user
-1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/user1/
-.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on motion.pdf (2 pages, 118698 bytes).
+ 69i,11n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/user1/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
+.pk></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></h
+ome/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></hom
+e/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/u
+ser1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/us
+er1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/user
+1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on motion.pdf (3 pages, 127043 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
