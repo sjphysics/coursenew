@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  30 NOV 2023 14:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  30 NOV 2023 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,7 +837,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-[3] [4]
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+<int.png, id=28, 566.86781pt x 143.03438pt>
+File: int.png Graphic file (type png)
+<use int.png>
+Package pdftex.def Info: int.png  used on input line 128.
+(pdftex.def)             Requested size: 481.83992pt x 121.57977pt.
+[5 <./int.png>]
 This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
@@ -848,13 +863,13 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26291 strings out of 476517
- 667773 string characters out of 5797388
+ 26298 strings out of 476517
+ 667870 string characters out of 5797388
  1939555 words of memory out of 5000000
- 47808 multiletter control sequences out of 15000+600000
+ 47815 multiletter control sequences out of 15000+600000
  567900 words of font info for 76 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 69i,11n,79p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,11n,79p,871b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/user1/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
 .pk></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pf
@@ -866,9 +881,9 @@ e/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/u
 ser1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/us
 er1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/user
 1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (4 pages, 130034 bytes).
+Output written on main.pdf (5 pages, 158664 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

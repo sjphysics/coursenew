@@ -98,7 +98,37 @@
     \end{enumerate}
     These are not always easy tasks to perform, for two main reasons: First, our first instinct when we see a graph is to interpret it as a picture, rather than a plot of a quantity vs. time. The second problem (\textit{and this persists throughout the study of physics}) is the tendency to confuse the change of a quantity for the value of that quantity. More precisely, we tend to lose sight of the fact that a variable's value at an instant and its rate of change are quite independent of each other. \\ \\
     Here are some of the few important points we need to understand during while interpreting and plotting graphs.
-    
-    
-    
+    \begin{center}
+    	\textbf{Which side of the origin is it on?}
+    \end{center}
+	The position at any given time is the value on the vertical axis for the $x$
+    vs. $t$ graph. Where we run into trouble is thinking that we might have some idea of how to answer this question for the velocity and acceleration graphs. Those graphs only give us information about the object's \textbf{changing position and changing speed}, respectively, not where the object is at any given time. If we are separately given where the object is at some point in time (for instance, at $t=0$), then we can determine its position at other times. One way to think of this is that the velocity graph gives us the shape of the position graph, but that shape could be located anywhere up-and-down the vertical axis. 
+    \begin{center}
+    	\textbf{Is the object at rest, or is it moving?}
+    \end{center}
+    Although this is a property of velocity, we can answer it using the $x$ vs. $t$ graph. Mathematically, we know that the velocity is the slope of the position graph, so since "at rest" means zero velocity, the object is at rest when the tangent line to the $x$ vs. $t$ graph has zero slope. But we should strive to look at this physically as well. Obviously an object that is moving is one whose position is changing, so if the $x$ value is changing, the object is moving. If we are given a $v$ vs. $t$ graph, we have to be careful not to use the same criterion as we did for the $x$ vs. $t$
+    graph. Instead, whether the object is moving or not is a simple matter of whether or not the value of  $v$ is zero. If we have the acceleration graph, then integrating it to get the velocity graph leaves an unknown constant ($v_i$). We know the shape of the  $v$ vs. $t$ graph, but not where it is located up-and-down the vertical axis. This means that with just the acceleration graph we cannot know where the velocity graph crosses the horizontal axis, and therefore have no idea where the object is coming to rest.
+    \begin{center}
+    	\textbf{Which way is the object moving?}
+    \end{center}
+    The direction of motion of the object can also be obtained from both the position and velocity graphs. From the position graph, we know that the sign of the slope is the sign of the velocity (which is the direction of motion). On the velocity graph, we simply need to determine if the value of the velocity is positive or negative (i.e. is the graph below or above the horizontal axis). A common mistake is to confuse these two things. For example, the position graph being below the horizontal axis does not mean the object is moving in the $-x$ direction, and a positive slope of the velocity graph does not mean that the object is moving in the $+x$
+    direction. Once again, the acceleration graph does not – by itself – provide information about the direction of the object's motion, because the question of above-or-below the horizontal axis for the velocity graph cannot be answered when the acceleration graph only gives the $v$ vs. $t$ graph's shape.
+    \begin{center}
+    	\textbf{Is the object speeding-up or slowing down?}
+    \end{center}
+	This is probably the trickiest question of all, because it doesn't have a direct correlation to the value or slope of any of the graphs. To make this determination, you actually need two pieces of information – the directions of both the velocity and the acceleration. This is because if the object is accelerating in the same direction that it is moving, then it is speeding up, and if it is accelerating in the opposite direction as the direction of motion, then it is slowing down. We therefore cannot determine the answer to this question from the acceleration graph alone, because that graph by itself does not provide the direction of motion (the function  $v(t)$
+	associated with this acceleration could be above or below the horizontal axis anywhere). We can determine speeding-up/slowing-down from the $v$ vs. $t$ graph, by comparing the slope of the graph with the value of the graph at the same point. If they have the same sign, then the acceleration is in the same direction as the velocity, and it is speeding up. If they are opposite, then it is slowing down. But there is a simpler, physical way to make this determination: If the $v$ vs. $t$ graph at the point in question is heading closer to the horizontal axis, then its velocity is heading toward zero, and it is slowing down, while if it is heading away, it is speeding up. Naturally horizontal parts of the the $v$ vs. $t$ graph represent motion in which the object is neither speeding up nor slowing down.\\ \\
+	Making this determination from the $x$ vs. $t$ graph is even more challenging. Clearly if a section of the $x$ vs. $t$ graph is a straight line, then the velocity is constant, and the object is neither speeding up nor slowing down. So what about when $x(t)$ is curved? The trick to use here is to determine if continuing this curve will eventually cause the graph to go horizontal (i.e. reach a max or a min), or vertical. If it is the former, then the object is slowing (a horizontal slope is stationary), and the latter is speeding up. Note that both of these can occur for either concave or convex curves, for positive or negative slopes, and above or below the horizontal axis.
+	\begin{center}
+		\subsection*{Integrating Using Graphs}
+	\end{center}	
+	We have already seen that we can derive equations of motion for $v(t)$
+	and  $x(t)$ by integrating their derivatives, and we know that integrals of functions equal the areas under the curves those functions represent, so we can use this knowledge to tie together these two facts. If we are given the graph of a motion, we can compute the area under the curve between the starting and ending points to get a definite integral, and therefore the change between the starting and ending values. So for example, if we again assume constant acceleration, a velocity-vs-time graph is a straight line whose slope is the acceleration. The area under this line from the starting time to the ending time will be the displacement between these two times (note: we still don’t know the positions for these times, only the change in positions). This actually demonstrates the average velocity relation we found earlier: \\
+	\begin{center}
+		\includegraphics[scale=0.85]{int.png}
+	\end{center}
+	Notice that it is vital that the acceleration is constant for this formula for average velocity to come out, because the area under the curve involves the area of a triangle that requires a straight line on top. Of course, the average velocity could accidentally come out to equal the arithmetic average of the starting and ending velocities when the acceleration is not constant (if the area under the curved graph happens to equal the area under the straight line graph between the same two points), but we cannot rely on such coincidences when solving problems. Moreover, this means that we cannot assume the converse – if the arithmetic mean of a starting and ending velocity equals the average velocity, we cannot conclude that the acceleration was constant over that time interval.
+	
+	
+	
 \end{document}	
