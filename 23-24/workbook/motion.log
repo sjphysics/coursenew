@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  29 NOV 2023 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  29 NOV 2023 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./motion.tex
+(motion.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (/home/user1/.miktex/texmfs/install/tex/latex/exam/exam.cls
@@ -733,15 +733,8 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count351
 \l__pdf_internal_box=\box67
 )
-(main.aux
-
-LaTeX Warning: Label `question@11' multiply defined.
-
-
-LaTeX Warning: Label `question@11' multiply defined.
-
-)
-\openout1 = `main.aux'.
+(motion.aux)
+\openout1 = `motion.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -757,7 +750,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
- (/home/user1/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+
+(/home/user1/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count352
 \scratchdimen=\dimen285
@@ -831,114 +825,32 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
 
 (/home/user1/.miktex/texmfs/install/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Overfull \hbox (3.01178pt too wide) in paragraph at lines 39--40
-[]\OT1/cmr/m/n/12 A model is an evidence-based representation of something that
- is either too difficult or impossible
- []
+) [1
 
-
-Overfull \hbox (8.42978pt too wide) in paragraph at lines 41--42
-[]\OT1/cmr/m/n/12 A law uses concise language, often expressed as a mathematica
-l equation, to describe a generalized
- []
-
-
-Overfull \hbox (23.54482pt too wide) in paragraph at lines 43--44
-[]\OT1/cmr/m/n/12 Recent developments in physics include discovery and imaging 
-of black holes, quantum cryptography,
- []
-
-[1
-
-{/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (1.95071pt too wide) in paragraph at lines 59--61
-[]\OT1/cmr/m/n/12 In collaborations like the CERN (European Organization for Nu
-clear Research), there are multiple
- []
-
-
-Overfull \hbox (23.89291pt too wide) in paragraph at lines 63--64
-\OT1/cmr/m/n/12 theorist proposed existence of a particle that you would like t
-o detect. Based on electromagnetism
- []
-
-[3]
-Overfull \hbox (10.981pt too wide) in paragraph at lines 78--79
-[]\OT1/cmr/m/n/12 To construct a resultant vector of two vectors in a plane geo
-metrically, we use the parallelogram
- []
-
-[4]
-Overfull \hbox (1.07231pt too wide) in paragraph at lines 84--85
-[]\OT1/cmr/m/n/12 Vectors are described in terms of their components in a coord
-inate system. In two dimensions
- []
-
-
-Overfull \hbox (6.92966pt too wide) in paragraph at lines 94--95
-[]\OT1/cmr/m/n/12 When using parallelogram method, we can sort of make it hybri
-d by introducing mathematical
- []
-
-<coordinatesystem.png, id=22, 660.4675pt x 209.78375pt>
-File: coordinatesystem.png Graphic file (type png)
-<use coordinatesystem.png>
-Package pdftex.def Info: coordinatesystem.png  used on input line 110.
-(pdftex.def)             Requested size: 330.23294pt x 104.8916pt.
-[5 <./coordinatesystem.png>]
-<vectors.png, id=32, 309.155pt x 354.32375pt>
-File: vectors.png Graphic file (type png)
-<use vectors.png>
-Package pdftex.def Info: vectors.png  used on input line 130.
-(pdftex.def)             Requested size: 154.57712pt x 177.16144pt.
- [6 <./vectors.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-[7] [8] [9]
-Overfull \hbox (4.32274pt too wide) in paragraph at lines 193--194
-\OT1/cmr/m/n/12 special kind of parallelogram have you constructed using the tw
-o vectors and their extensions? 
- []
-
-[10] [11]
-This exam contains 33 questions with 0 parts, 0 subparts, and 0 subsubparts.
+{/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+This exam contains 0 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
-(main.aux)
+(motion.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 26811 strings out of 476517
- 676520 string characters out of 5797388
- 1939555 words of memory out of 5000000
- 48324 multiletter control sequences out of 15000+600000
- 568506 words of font info for 78 fonts, out of 8000000 for 9000
+ 26578 strings out of 476517
+ 672864 string characters out of 5797388
+ 1925555 words of memory out of 5000000
+ 48101 multiletter control sequences out of 15000+600000
+ 562674 words of font info for 55 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 69i,10n,79p,1000b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/user1/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
-.pk></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></h
-ome/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></hom
-e/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/u
-ser1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/user
-1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/user1
-/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (11 pages, 207996 bytes).
+ 69i,6n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on motion.pdf (1 page, 38111 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
