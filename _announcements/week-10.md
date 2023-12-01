@@ -5,6 +5,26 @@ date: 2023-11-27
 ---
 
 
+## Homework 2
+
+[Download HW2](/23-24/2Q/hw2/main.pdf)
+{: .label .label-yellow }
+
+[View HW2](/23-24/2Q/hw2/main.html)
+{: .label .label-yellow }
+
+[View Lite HW2](/23-24/2Q/hw2/lite.html)
+{: .label .label-yellow }
+
+
+## Homework 1.5
+
+[Complete HW 1.5 ](/23-24/2Q/motion/main.pdf)
+{: .label .label-yellow }
+
+Due Date - December 11th
+{: .label .label-yellow }
+
 ## More Notes on Motion in One Dimension
 
 [Download Notes](/23-24/2Q/motion/main.pdf)
