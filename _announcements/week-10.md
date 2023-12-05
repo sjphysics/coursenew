@@ -19,7 +19,7 @@ date: 2023-11-27
 
 ## Homework 1.5
 
-[Complete HW 1.5 ](/23-24/2Q/motion/main.pdf)
+[Complete HW 1.5 ](https://docs.google.com/forms/d/e/1FAIpQLScZKqHKtZK0KGpNOfO1w3Xh44dqzKhXa5ia2uSU48vdUbn5Fg/viewform?usp=sf_link)
 {: .label .label-yellow }
 
 Due Date - December 11th
