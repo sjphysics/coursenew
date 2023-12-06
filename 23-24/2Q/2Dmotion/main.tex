@@ -1,5 +1,5 @@
 \documentclass[12pt,addpoints]{exam}
-%\usepackage{enumitem}
+\usepackage{enumitem}
 \usepackage{amsfonts,amssymb,amsmath, amsthm}
 \usepackage{graphicx}
 \usepackage{systeme}
@@ -107,8 +107,33 @@
 		\item $\left|a_{r}\right|=4 \pi^{2} r f^{2}$, since $\omega=2\pi f$
 		\item $\left|a_{r}\right|=\dfrac{4 \pi^{2} r}{T^{2}}$, since $f=1 / T=\omega / 2 \pi$
 	\end{itemize}
-	Often, we decide which expression to use based on information that describes the trajectory. An important measure might be the trajectory’s radius. We may also independently know the period, or the frequency, or the angular velocity, or the speed. If we know one, we can calculate the other three but it is important to understand the meaning of each quantity.
-	
-	
-	
-\end{document}	
+	Often, we decide which expression to use based on information that describes the trajectory. An important measure might be the trajectory’s radius. We may also independently know the period, or the frequency, or the angular velocity, or the speed. If we know one, we can calculate the other three but it is important to understand the meaning of each quantity. \\ \\
+	\textit{The next section is optional, but might be interesting for some of you. I definitely recommend reading it, because it does help visualize the quantities}
+	\subsubsection*{More on Angular Velocity and Angular Acceleration}
+	We shall always choose a right-handed cylindrical coordinate system. If the positive z - axis points up, then we choose $\theta$ to be increasing in the counterclockwise direction as shown in the figure below:
+	\begin{center}
+		\includegraphics[scale=0.4]{rhr.png}
+	\end{center}
+	For a point object undergoing circular motion about the z-axis, the angular velocity vector $\vec{\omega}$ is directed along the z -axis with z -component equal to the time derivative of the angle $\theta$,
+	$$\vec{\omega}=\frac{d \theta}{d t} \hat{\mathbf{k}}=\omega_{z} \hat{\mathbf{k}}$$
+	It is important to note that the angular speed is just the magnitude of the z -component of the angular velocity,
+	$$\omega \equiv\left|\omega_{z}\right|=\left|\frac{d \theta}{d t}\right|$$
+	\begin{itemize}
+		\item If the velocity of the object is in the $+\hat\theta$-direction, (rotating in the counterclockwise direction), then the z -component of the angular velocity is positive, $\omega_{z}=\dfrac{d\theta}{dt}>0$. The angular velocity vector then points in the $+\hat k$-direction. 
+		\item If the velocity of the object is in the $-\hat\theta$-direction, (rotating in the clockwise direction), then the z -component of the angular velocity angular velocity is negative, $\omega_{z}=\dfrac{d\theta}{dt}<0$. The angular velocity vector then points in the $-\hat k$-direction.
+		Thus, we can see that the velocity and angular velocity are related by
+		$$\overrightarrow{\mathbf{v}}=\overrightarrow{\boldsymbol{\omega}} \times \overrightarrow{\mathbf{r}}=\frac{d \theta}{d t} \hat{\mathbf{k}} \times r \hat{\mathbf{r}}=r \frac{d \theta}{d t} \hat{\boldsymbol{\theta}}$$
+	\end{itemize}
+	Conversely, for a point object undergoing circular motion about the fixed z -axis, the angular acceleration is defined as
+	$$\vec{\alpha}=\frac{d^{2} \theta}{d t^{2}} \hat{\mathbf{k}}=\alpha_{z} \hat{\mathbf{k}}$$
+	 The magnitude of the angular acceleration is denoted by the Greek symbol alpha,
+	 $$\alpha \equiv|\vec{\alpha}|=\left|\frac{d^{2} \theta}{d t^{2}}\right|$$
+	 There are four special cases to consider for the direction of the angular velocity. Let’s first consider the two types of motion with $\overrightarrow{\boldsymbol{\alpha}}$ pointing in the $\hat{k}$-direction.
+	 \begin{enumerate}[label=(\roman*)]
+	 	\item If the object is rotating counterclockwise and speeding up, then both $\dfrac{d\theta}{dt}>0$ and $\dfrac{d^2\theta}{dt^2}>0$
+	 	\item If the object is rotating clockwise and slowing down, then  $\dfrac{d\theta}{dt}<0$ but $\dfrac{d^2\theta}{dt^2}>0$. \\
+		\textit{There are two other corresponding cases in which}$\overrightarrow{\boldsymbol{\alpha}}$ \textit{is pointing in the} $-\hat{k}$-\textit{direction}.
+		\item If the object is rotating counterclockwise and slowing down then  $\dfrac{d\theta}{dt}>0$ and $\dfrac{d^2\theta}{dt^2}<0$
+		\item If the object is rotating clockwise and speeding up then both  $\dfrac{d\theta}{dt}<0$ and $\dfrac{d^2\theta}{dt^2}<0$
+	 \end{enumerate}
+	\end{document}	
