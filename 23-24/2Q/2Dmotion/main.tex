@@ -18,11 +18,11 @@
 }
 \pagestyle{headandfoot}
 %\firstpageheadrule
-\runningheader{Two Dimensional Motion}{}{Page \thepage\ of \numpages}
+\runningheader{Two Dimensional \& Circular Motion}{}{Page \thepage\ of \numpages}
 \runningheadrule
 \firstpagefooter{}{}{}
 \runningfooter{By Aaron G.K.}{}{Page \thepage\ of \numpages}
-\title{Two Dimensional Motion}
+\title{Two Dimensional \& Circular Motion}
 \author{Aaron G.K.}
 \begin{document}
 	\maketitle
@@ -73,6 +73,21 @@
 	We can also geometrically derive the equations above which are left for you, the readers aka the students :).
 	\subsubsection*{Acceleration}
 	When the motion of an object is described in polar coordinates, the acceleration has two components, the tangential component,$a_\theta$ and the radial component, $a_r$. We can write the acceleration vector as
-	$$\overrightarrow{\mathbf{a}}=a_{r} \hat{\mathbf{r}}(t)+a_{\theta} \hat{\boldsymbol{\theta}}(t)$$
+	$$\overrightarrow{\mathbf{a}}=a_{r} \hat{\mathbf{r}}(t)+a_{\theta} \hat{=\boldsymbol{\theta}}(t)$$
+	It is, however, important to note that the unit vectors  $\hat r(t)$ and $\hat \theta(t)$ change \textbf{direction} and hence are not constant in time. \\ \\
+	Assuming that the tangential velocity $v_\theta=r\dfrac{d\theta}{dt}$	is changing in magnitude due to the presence of some tangential force; we consider that $\dfrac{d\theta}{dt}$ is changing in time, (the magnitude of the velocity is changing in time). Recall that in polar coordinates the velocity vector can be written as
+	$$\overrightarrow{\mathbf{v}}(t)=r \frac{d \theta}{d t} \hat{\boldsymbol{\theta}}(t)$$
+	We now use the product rule to determine the acceleration:
+	$$\overrightarrow{\mathbf{a}}(t)=\frac{d \overrightarrow{\mathbf{v}}(t)}{d t}=r \frac{d^{2} \theta(t)}{d t^{2}} \hat{\boldsymbol{\theta}}(t)+r \frac{d \theta(t)}{d t} \frac{d \hat{\boldsymbol{\theta}}(t)}{d t}$$
+	The equation above can be re-written as
+	$$\overrightarrow{\mathbf{a}}(t)=r \frac{d^{2} \theta(t)}{d t^{2}} \hat{\boldsymbol{\theta}}(t)+r \frac{d \theta(t)}{d t} \frac{d}{d t}(-\sin \theta(t) \hat{\mathbf{i}}+\cos \theta(t) \hat{\mathbf{j}})$$
+	Using the chain rule, we get the following result
+	$$\overrightarrow{\mathbf{a}}(t)=r \frac{d^{2} \theta(t)}{d t^{2}} \hat{\boldsymbol{\theta}}(t)+r \frac{d \theta(t)}{d t}\left(-\cos \theta(t) \frac{d \theta(t)}{d t} \hat{\mathbf{i}}-\sin \theta(t) \frac{d \theta(t)}{d t} \hat{\mathbf{j}}\right)$$
+	Which simplifies easily to the next result
+	$$\overrightarrow{\mathbf{a}}(t)=r \frac{d^{2} \theta(t)}{d t^{2}} \hat{\boldsymbol{\theta}}(t)-r\left(\frac{d \theta(t)}{d t}\right)^{2} \hat{\mathbf{r}}(t)$$
+	The tangential component of the acceleration(in the direction of $\mathbf{\hat\theta}$) is then
+	$$a_{\theta}=r \frac{d^{2} \theta(t)}{d t^{2}}$$
+	The radial component of the acceleration(in the direction of $\mathbf{\hat{r}}$) becomes
+	$$a_{r}=-r\left(\frac{d \theta(t)}{d t}\right)^{2}=-r \omega^{2}$$
 	
 \end{document}	
