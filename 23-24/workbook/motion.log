@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  7 DEC 2023 04:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  8 DEC 2023 06:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,7 +828,19 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 {/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
-This exam contains 3 questions with 0 parts, 0 subparts, and 0 subsubparts.
+<graph1.png, id=14, 523.9575pt x 401.5pt>
+File: graph1.png Graphic file (type png)
+<use graph1.png>
+Package pdftex.def Info: graph1.png  used on input line 53.
+(pdftex.def)             Requested size: 157.18846pt x 120.45091pt.
+ [2 <./graph1.png>]
+<graph2.png, id=20, 481.8pt x 353.32pt>
+File: graph2.png Graphic file (type png)
+<use graph2.png>
+Package pdftex.def Info: graph2.png  used on input line 73.
+(pdftex.def)             Requested size: 144.5411pt x 105.99681pt.
+ [3 <./graph2.png>] [4] [5]
+This exam contains 13 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
 (motion.aux)
@@ -838,22 +850,26 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26628 strings out of 476517
- 673573 string characters out of 5797388
- 1929555 words of memory out of 5000000
- 48143 multiletter control sequences out of 15000+600000
+ 26695 strings out of 476517
+ 674593 string characters out of 5797388
+ 1931555 words of memory out of 5000000
+ 48210 multiletter control sequences out of 15000+600000
  567208 words of font info for 74 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 69i,6n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,10n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></ho
-me/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/
-user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on motion.pdf (1 page, 70224 bytes).
+</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></ho
+me/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home
+/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/u
+ser1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/user
+1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/user1
+/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/user1/.
+miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on motion.pdf (5 pages, 152861 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
