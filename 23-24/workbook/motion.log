@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  11 DEC 2023 03:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  11 DEC 2023 03:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,7 +853,7 @@ File: pic4.png Graphic file (type png)
 Package pdftex.def Info: pic4.png  used on input line 129.
 (pdftex.def)             Requested size: 211.39139pt x 92.74721pt.
  [7 <./pic4.png>] [8]
-This exam contains 24 questions with 0 parts, 0 subparts, and 0 subsubparts.
+This exam contains 26 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
 (motion.aux)
@@ -863,10 +863,10 @@ L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26775 strings out of 476517
- 675874 string characters out of 5797388
+ 26785 strings out of 476517
+ 676034 string characters out of 5797388
  1935555 words of memory out of 5000000
- 48289 multiletter control sequences out of 15000+600000
+ 48299 multiletter control sequences out of 15000+600000
  568159 words of font info for 77 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  69i,10n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -881,7 +881,7 @@ me/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home
 er1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/use
 r1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/user1
 /.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on motion.pdf (8 pages, 296321 bytes).
+Output written on motion.pdf (8 pages, 296653 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
