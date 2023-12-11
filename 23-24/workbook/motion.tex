@@ -25,7 +25,22 @@
 	
 	\begin{center}
 		\section*{Unit 3 - Kinematics}
+		\subsection*{Chapter Summary}
+		\subsubsection*{One Dimensional Kinematics}
+		\begin{itemize}
+			\item The motion of a particle in one dimension can be described using the function $x(t)$ that gives its position at any time. Its velocity is defined by the derivative $v=\dfrac{dx}{dt}$. 
+			\item From the definition, we see that the SI units of velocity are meters per second, m/s. Positive and negative signs indicate the direction of motion, relative to the direction that is arbitrarily called positive when we pick our coordinate system. In the case of constant velocity, we have $v=\dfrac{\Delta x}{\Delta t}$, where the notation $\Delta$ (Greek uppercase “delta,” like Latin “D”) means “change in,” or “final minus initial.” When the velocity is not constant, this equation is false, although the quantity $\dfrac{\Delta x}{\Delta t}$ can be interpreted as a kind of average velocity. 
+			\item Velocity can only be defined if we choose some arbitrary reference point that we consider to be at rest. Therefore velocity is relative, not absolute. A person aboard a cruising passenger jet might consider the cabin to be at rest, but someone on the ground might say that the plane was moving very fast — relative to the dirt. 
+			\item The acceleration of a particle is defined as the time derivative of the velocity, or the second derivative of the position with respect to time $a=\dfrac{dv}{dt}=\dfrac{d^2x}{dt^2}$
+			\item Unlike velocity, acceleration is not just a matter of opinion. Observers in different inertial frames of reference agree on accelerations. An acceleration is caused by the force that one object exerts on another.
+		\end{itemize}
+		\subsubsection*{Circular Motion}
+		\begin{itemize}
+			\item Circular motion requires a force with a component toward the center of the circle. Uniform circular motion is the special case in which the speed is constant. In uniform circular motion, the acceleration vector is toward the center, and therefore total force acting on the object must point directly toward the center.
+			\item We can define the angular velocity $\omega$, which is the number of radians per second by which the object’s angle changes, $\omega=\dfrac{d\omega}{dt}$. For uniform circular motion, $\omega$ is constant, and the magnitude of the acceleration is $a=\omega^2r=\dfrac{v^2}{r}$ where r is the radius of the circle. These expressions can also be related to the period of the rotation $T$, which is the time for one revolution. We have $\omega=\dfrac{2\pi}{T}$
+		\end{itemize}
 		\begin{questions}
+            \question Show that the expression $\omega^2 r$ has the units of acceleration.\vspace{0.7in}
 			\question On a 30 km bike ride, you ride the first 10 km at an average speed of 8 km/hour. What average speed must you have over the next 12km if your average speed for the whole ride is to be 18 km/hour?\vspace{1.3in}
 			\question An object starts moving at $t = 0$, and its position is given by $x = At^5 - Bt^2$, where $t$ is in seconds and $x$ is in meters. A is a non-zero constant.
 			\begin{enumerate}[label=(\alph*)]
@@ -86,8 +101,49 @@
 				\item Find the person’s acceleration, $a$, as a function of time.\vspace{1in}
 				\item Use your answer from part (d) to show that if she waits long enough to open her chute, her acceleration will become very small.\vspace{1in} 
 			\end{enumerate}
-		\end{questions}
-		
-
+			\question Can centripetal acceleration change the speed of a particle undergoing circular motion? What about tangential acceleration?\vspace{1in}		
+			\question An object that is thrown straight up falls back to Earth. This is one-dimensional motion. 
+			\begin{enumerate}[label=(\alph*)]
+				\item When is its velocity zero?\vspace{0.3in}
+				\item Does its velocity change direction?\vspace{0.3in}  
+				\item Does the acceleration have the same sign on the way up as on the way down? Why?\vspace{0.3in}
+			\end{enumerate} 
+			\question Sketch the velocity-versus-time and acceleration-versus-time graph from the following position-versus-time graph.
+			\begin{center}
+				\includegraphics[scale=0.8]{graph3.jpeg}
+			\end{center}
+			\vspace{2in}
+			\question Blood is accelerated from rest to 32.0 cm/s in a distance of 2.00 cm by the left ventricle of the heart. 
+			\begin{enumerate}[label=(\alph*)]
+				\item Make a sketch of the situation, i.e., plot the $x-t$ graph. \vspace{1in}
+				\item How long does the acceleration take?\vspace{1in}
+				\item Is the answer reasonable when compared with the time for a heartbeat?\vspace{0.5in}
+			\end{enumerate}
+			\question A motorcycle that is slowing down uniformly covers 2.0 successive km in 80 s and 120 s, respectively. 
+			\begin{enumerate}[label=(\alph*)]
+				\item What is the acceleration of the motorcycle?\vspace{1in} 
+				\item What is its velocity at the beginning and end of the 2-km trip?\vspace{1in}
+			\end{enumerate}
+			\question Abel is whirling a brick tied to the end of a rope. The rope makes an angle $\theta$ with respect to the horizontal, and the brick undergoes circular motion with radius R.
+			\begin{center}
+				\includegraphics[scale=0.3]{pic4.png}
+			\end{center}
+			\begin{enumerate}[label=(\alph*)]
+				\item What is the speed of the brick?\vspace{1in}
+				\item Check that the units of your answer to part
+				a make sense.\vspace{1in}
+				\item Check that the dependence of your answer
+				on the variables makes sense, and comment on
+				the limit $\theta \to 0$.\vspace{2in}
+			\end{enumerate}
+			\question The position of a particle is  $\vec r(t)=(3.0t^2\hat i+5.0\hat j-6.0t\hat k)m$
+			\begin{enumerate}[label=(\alph*)]
+				\item Determine its velocity and acceleration as functions of time. \vspace{1in}
+				\item What are its velocity and acceleration at time $t = 0$?\vspace{1in}
+			\end{enumerate}
+			\question A particle travels in a circle of radius 12 m at a constant speed of 24 m/s. What is the magnitude of the acceleration?\vspace{1in}
+			\question A fan is rotating at a constant 360.0 rev/min. What is the magnitude of the acceleration of a point on one of its blades 12.0 cm from the axis of rotation?\vspace{1in}
+			\question An experimental jet rocket travels around Earth along its equator just above its surface. At what speed must the jet travel if the magnitude of its acceleration is $g$?
+		\end{questions}	
 	\end{center}		
 \end{document}
