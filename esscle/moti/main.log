@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  15 DEC 2023 03:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  18 DEC 2023 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./motion.tex
-(motion.tex
+**./main.tex
+(main.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
 (/home/user1/.miktex/texmfs/install/tex/latex/exam/exam.cls
@@ -733,23 +733,23 @@ File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count351
 \l__pdf_internal_box=\box67
 )
-(motion.aux)
-\openout1 = `motion.aux'.
+(main.aux)
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/home/user1/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -784,14 +784,14 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(14.22636pt, 773.91498pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=773.91498pt
+* \textheight=745.46222pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-88.04362pt
+* \topmargin=-59.59087pt
 * \headheight=15.0pt
 * \headsep=15.0pt
 * \topskip=12.0pt
@@ -809,81 +809,178 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
 (/home/user1/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 
 
 (/home/user1/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 33
 .
 
 (/home/user1/.miktex/texmfs/install/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
-{/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] [2]
-<graph1.png, id=18, 523.9575pt x 401.5pt>
-File: graph1.png Graphic file (type png)
-<use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 68.
-(pdftex.def)             Requested size: 157.18846pt x 120.45091pt.
- [3 <./graph1.png>]
-<graph2.png, id=24, 481.8pt x 353.32pt>
-File: graph2.png Graphic file (type png)
-<use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 88.
-(pdftex.def)             Requested size: 144.5411pt x 105.99681pt.
+ []
 
-[4 <./graph2.png>] [5]
-<graph3.jpeg, id=36, 211.0284pt x 205.2468pt>
-File: graph3.jpeg Graphic file (type jpg)
-<use graph3.jpeg>
-Package pdftex.def Info: graph3.jpeg  used on input line 113.
-(pdftex.def)             Requested size: 168.82294pt x 164.19765pt.
- [6 <./graph3.jpeg>]
-<pic4.png, id=40, 704.6325pt x 309.155pt>
-File: pic4.png Graphic file (type png)
-<use pic4.png>
-Package pdftex.def Info: pic4.png  used on input line 129.
-(pdftex.def)             Requested size: 211.39139pt x 92.74721pt.
- [7 <./pic4.png>] [8]
-This exam contains 26 questions with 0 parts, 0 subparts, and 0 subsubparts.
+<g1.png, id=4, 432.61626pt x 249.93375pt>
+File: g1.png Graphic file (type png)
+<use g1.png>
+Package pdftex.def Info: g1.png  used on input line 38.
+(pdftex.def)             Requested size: 216.3076pt x 124.96657pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+LaTeX Warning: File `g.png' not found on input line 62.
+
+
+! Package pdftex.def Error: File `g.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 			\includegraphics[scale=0.5]{g.png}
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+[1
+
+{/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map} <./g1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Overfull \hbox (115.1809pt too wide) in paragraph at lines 129--130
+\OT1/cmr/m/n/12 released. Which one of the following statements is correct abou
+t energy of the system?([]) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+LaTeX Warning: File `g.png' not found on input line 145.
+
+
+! Package pdftex.def Error: File `g.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 			\includegraphics[scale=0.5]{g.png}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[3]
+
+! Package keyval Error: scale0.5 undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 			\includegraphics[scale0.5]{g.png}
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `g.png' not found on input line 174.
+
+
+! Package pdftex.def Error: File `g.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 			\includegraphics[scale0.5]{g.png}
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+[4]
+This exam contains 17 questions with 0 parts, 0 subparts, and 0 subsubparts.
 This exam has a total of 0 points.
 This exam has a total of 0 bonus points.
-(motion.aux)
+(main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26785 strings out of 476517
- 676034 string characters out of 5797388
- 1935555 words of memory out of 5000000
- 48299 multiletter control sequences out of 15000+600000
- 568159 words of font info for 77 fonts, out of 8000000 for 9000
+ 26814 strings out of 476517
+ 676741 string characters out of 5797388
+ 1938555 words of memory out of 5000000
+ 48328 multiletter control sequences out of 15000+600000
+ 567385 words of font info for 75 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 69i,10n,79p,729b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/user1/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200
-.pk></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
-</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+ 69i,10n,79p,727b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></ho
 me/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb></home
 /user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/us
 er1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/use
-r1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/user1
-/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on motion.pdf (8 pages, 296652 bytes).
+r1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/user1
+/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (4 pages, 130970 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

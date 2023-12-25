@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\begin{document}
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Time [min]},
+    ylabel={Displacement [meter]},
+    xmin=0, xmax=30,
+    ymin=0, ymax=2000,
+    xtick={},
+    ytick={},
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+]
+
+\addplot[
+    color=brown,
+    ]
+    coordinates {
+    (0,0)(15,1000)(20,1000)(30,1800)
+    };
+    
+\end{axis}
+\end{tikzpicture}
+\end{document}

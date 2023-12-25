@@ -1,0 +1,27 @@
+\documentclass{article}
+\tracinglostchars=2
+\usepackage[nil]{babel}
+\babelprovide[import,main,onchar=ids fonts]{amharic}
+\babelprovide[onchar=ids fonts]{english}
+\usepackage{unicode-math}
+
+\defaultfontfeatures{ Scale=MatchLowercase,
+	Ligatures=TeX,
+	Renderer=Harfbuzz }
+\babelfont{rm}
+{STIX Two Text}
+% Noto fonts vailable at: https://www.google.com/get/noto/#serif-ethi
+\babelfont[amharic]{rm}
+{Noto Serif Ethiopic}
+% Set up sans-serif and monospace fonts here, if needed.
+\setmathfont{STIX Two Math}
+
+\babeltags{amharic=amharic}
+\babeltags{english=english}
+
+\newcommand\matham[1]{\mathop{\text{\rmfamily\upshape\textamharic{#1}}}}
+\newcommand\mathbfam[1]{\mathop{\text{\rmfamily\bfseries\upshape\textamharic{#1}}}}
+\begin{document}
+	\[ \int_{\matham{አለምነህ}}^{\matham{አባስ}} = \matham{አባስ}
+	\]
+\end{document}

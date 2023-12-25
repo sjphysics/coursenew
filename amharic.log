@@ -1,0 +1,882 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.11.29)  18 DEC 2023 08:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./amharic.tex
+(amharic.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(/home/user1/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/home/user1/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2023/11/11 v3.97 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen141
+\l@unhyphenated=\language1
+
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/user1/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/nil.ldf
+Language: nil 2023/11/11 v3.97 Nil language
+\l@nil=\language2
+))
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/locale/am/babel-amharic.t
+ex)
+Package babel Info: Importing data for amharic
+(babel)             from babel-am.ini. Reported on input line 4.
+
+! Undefined control sequence.
+\\babelprovide ... \@nnil \else \bbl@luahyphenate 
+                                                  \bbl@exp {\\\AddToHook {en...
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\babelprovide ...ct@language {#2}{}}}}\directlua 
+                                                  { if Babel.locale_mapped =...
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+! Extra }, or forgotten $.
+\\babelprovide ...he \localeid ].letters = false }
+                                                  \bbl@xin@ { letters }{ \bb...
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\\babelprovide ...ua {\languagename }}}\directlua 
+                                                  { if Babel.script_blocks['...
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\babelprovide ...s {\languagename }}{}\directlua 
+                                                  { if Babel.script_blocks['...
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/babel-ca-ethiopic.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (229.8843pt too wide) in paragraph at lines 4--35
+[]\OT1/cmr/m/n/10 if Babel.locale$[]\OML/cmm/m/it/10 apped \OT1/cmr/m/n/10 == \
+OML/cmm/m/it/10 nilthenBabel:locale[]apped \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 t
+rueBabel:linebreaking:add[]efore\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Babel:locale[
+]ap; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 Babel:loc[]o[]cr \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (809.86945pt too wide) in paragraph at lines 4--35
+[]\OML/cmm/m/it/10 Babel:chr[]o[]oc \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Babel:ch
+r[]o[]ocor[]endBabel:locale[]rops\OT1/cmr/m/n/10 [2]\OML/cmm/m/it/10 :letters \
+OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[][]$ 
+ []
+
+)
+! Missing number, treated as zero.
+<to be read again> 
+                   \atcatcode 
+l.4 ...vide[import,main,onchar=ids fonts]{amharic}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+(/home/user1/.miktex/texmfs/install/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing basic data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+! Undefined control sequence.
+\\babelprovide ... \@nnil \else \bbl@luahyphenate 
+                                                  \bbl@exp {\\\AddToHook {en...
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\babelprovide ...ct@language {#2}{}}}}\directlua 
+                                                  { if Babel.locale_mapped =...
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\\babelprovide ...he \localeid ].letters = false }
+                                                  \bbl@xin@ { letters }{ \bb...
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+\\babelprovide ...ua {\languagename }}}\directlua 
+                                                  { if Babel.script_blocks['...
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\\babelprovide ...s {\languagename }}{}\directlua 
+                                                  { if Babel.script_blocks['...
+l.5 \babelprovide[onchar=ids fonts]{english}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(/home/user1/.miktex/texmfs/install/tex/latex/unicode-math/unicode-math.sty
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (229.8843pt too wide) in paragraph at lines 5--24
+[]\OT1/cmr/m/n/10 if Babel.locale$[]\OML/cmm/m/it/10 apped \OT1/cmr/m/n/10 == \
+OML/cmm/m/it/10 nilthenBabel:locale[]apped \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 t
+rueBabel:linebreaking:add[]efore\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Babel:locale[
+]ap; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 Babel:loc[]o[]cr \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (813.5846pt too wide) in paragraph at lines 5--24
+[]\OML/cmm/m/it/10 Babel:chr[]o[]oc \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Babel:ch
+r[]o[]ocor[]endBabel:locale[]rops\OT1/cmr/m/n/10 [3]\OML/cmm/m/it/10 :letters \
+OT1/cmr/m/n/10 = \OML/cmm/m/it/10 false[][]$ 
+ []
+
+(/home/user1/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-11-09 L3 programming layer (loader) 
+
+(/home/user1/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box51
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+
+! Package unicode-math Error: Cannot be run with pdftex!
+(unicode-math)                Use XeLaTeX or LuaLaTeX instead.
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.40 ...ror:nn {unicode-math} {unsupported-engine}
+                                                  
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+)
+! Undefined control sequence.
+l.8 \defaultfontfeatures
+                        { Scale=MatchLowercase,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \defaultfontfeatures{ S
+                           cale=MatchLowercase,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package babel Error: This macro is available only in LuaLaTeX and XeLaTeX..
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \babelfont
+               {rm}
+Consider switching to these engines.
+
+
+! Package babel Error: This macro is available only in LuaLaTeX and XeLaTeX..
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \babelfont
+               [amharic]{rm}
+Consider switching to these engines.
+
+! Undefined control sequence.
+l.17 \setmathfont
+                 {STIX Two Math}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(amharic.aux)
+\openout1 = `amharic.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }
+l.24 \begin{document}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.24 \begin{document}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.24 \begin{document}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\matham #1->\mathop {\text 
+                           {\rmfamily \upshape \textamharic {#1}}}
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \rmfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+Please use the math alphabet \mathrm instead of the \rmfamily command. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \upshape invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+Please define a new math alphabet
+if you want to use a special font in math mode. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unicode character አ (U+12A0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ለ (U+1208)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ም (U+121D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ነ (U+1290)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ህ (U+1205)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 	\[ \int_{\matham{አለምነህ}
+                                       }^{\matham{አባስ}} = \matham{አ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+\matham #1->\mathop {\text 
+                           {\rmfamily \upshape \textamharic {#1}}}
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \rmfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+Please use the math alphabet \mathrm instead of the \rmfamily command. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \upshape invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+Please define a new math alphabet
+if you want to use a special font in math mode. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unicode character አ (U+12A0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ባ (U+1263)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ስ (U+1235)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...tham{አለምነህ}}^{\matham{አባስ}
+                                                  } = \matham{አባስ}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+\matham #1->\mathop {\text 
+                           {\rmfamily \upshape \textamharic {#1}}}
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \rmfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+Please use the math alphabet \mathrm instead of the \rmfamily command. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \upshape invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+Please define a new math alphabet
+if you want to use a special font in math mode. 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Unicode character አ (U+12A0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ባ (U+1263)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ስ (U+1235)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...^{\matham{አባስ}} = \matham{አባስ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ->{\bbl@mapselect 
+                                              }{\bbl@mapselect }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\__hook_toplevel selectfont ...t }{\bbl@mapselect 
+                                                  }
+l.27 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+{/home/user1/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] (amharic.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+ ***********
+ )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 5 ({)
+### simple group (level 1) entered at line 4 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 1889 strings out of 476517
+ 36099 string characters out of 5797388
+ 1927555 words of memory out of 5000000
+ 23879 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 65i,5n,79p,1219b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></home/user1/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on amharic.pdf (1 page, 60447 bytes).
+PDF statistics:
+ 31 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

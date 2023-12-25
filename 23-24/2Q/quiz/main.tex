@@ -1,0 +1,60 @@
+\documentclass[12pt,addpoints]{exam}
+\usepackage{enumitem}
+\usepackage{amsfonts,amssymb,amsmath, amsthm}
+\usepackage{graphicx}
+\usepackage{systeme}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{hyperref}
+\usepgfplotslibrary{fillbetween}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=12mm,
+}
+\pagestyle{headandfoot}
+%\firstpageheadrule
+\runningheader{Quiz}{}{Page \thepage\ of \numpages}
+\runningheadrule
+\firstpagefooter{}{}{}
+\runningfooter{By Aaron G.K.}{}{Page \thepage\ of \numpages}
+\begin{document}
+	\title{St John Baptist De La Salle Catholic School, Addis Ababa\\
+		\large Grade 11 Physics Quiz\\
+		$2^\text{nd}$ Quarter}
+	\maketitle
+	\textbf{Time Allowed: 30 minutes}
+	\begin{questions}
+		\subsection*{Problems}
+		\question[2] A point-like object is constrained to travel in a circle. The z-component of the angular acceleration of the object for the time interval $[0,3]$ is given by the function
+		$$\alpha_{z}(t)=\left\{\begin{array}{l} 
+			2\left(1-\dfrac{t}{3}\right) ; 0 \leq t \leq t_{1} \\ 
+			0 ; t>t_{1} 
+		\end{array}\right. \nonumber$$
+		where b is a positive constant with units $rad/s^2$
+		\begin{enumerate}[label=(\alph*)]
+			\item Determine an expression for the angular velocity of the object at $t=3$.
+			\item Through what angle has the object rotated at time $t=3$.  
+		\end{enumerate}
+		\question[3] A particle is moving in a circle of radius $R$. At $t = 0$, it is located on the x -axis. The angle the particle makes with the positive x -axis is given by  $\theta(t)=5t^3-3t$. 
+		Determine \begin{enumerate}[label=(\alph*)]
+			\item the velocity vector, and 
+			\item the acceleration vector. 
+			\item Express your answer in polar coordinates. At what time is the centripetal acceleration zero? 
+		\end{enumerate}
+		\subsection*{BONUS}
+		\question[1] A particle moves outward along a spiral starting from the origin at $t = 0$. Its trajectory is given by  $r=b\theta$ where $b$ is a positive constant with units  $[m\cdot rad^{-1}]\cdot\theta$
+		increases in time according to  $\theta=ct^2$, where $c>0$ is a positive constant (with units  $[rad\cdot s^{-2}]$)
+		\begin{enumerate}[label=(\alph*)]
+			\item Determine the acceleration as a function of time.
+			\item Determine the time at which the radial acceleration is zero.
+			\item What is the angle when the radial acceleration is zero?
+			\item Determine the time at which the radial and tangential accelerations have equal magnitude.
+		\end{enumerate}
+	\end{questions}
+\end{document}

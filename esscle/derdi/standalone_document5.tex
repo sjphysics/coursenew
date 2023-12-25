@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{textcomp}
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+\begin{document}
+
+
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Time [sec]},
+    ylabel={Velocity [m/s]},
+    xmin=0, xmax=8,
+    ymin=0, ymax=10,
+    xtick={0, 2, 4, 6, 8},
+    ytick={0, 2, 4, 6, 8, 10},
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+]
+
+\addplot[
+    color=brown,
+    ]
+    coordinates {
+    (0,0)(2,6)(4,6)(6,10)
+    };
+    
+\end{axis}
+\end{tikzpicture}
+\end{document}
