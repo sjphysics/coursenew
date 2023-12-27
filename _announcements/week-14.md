@@ -13,5 +13,3 @@ date: 2023-12-25
 | Balance and Unbalanced Forces   | [View playlist](https://www.khanacademy.org/science/physics/forces-newtons-laws/balanced-unbalanced-forces/v/balanced-and-unbalanced-forces) | _Download Not Available_ |
 | Inclined planes and friction   | [View playlist](https://www.khanacademy.org/science/physics/forces-newtons-laws/inclined-planes-friction/v/inclined-plane-force-components) | _Download Not Available_ |
 | Tension   | [View playlist](https://www.khanacademy.org/science/physics/forces-newtons-laws/tension-tutorial/v/the-force-of-tension) | _Download Not Available_ |
-
-## 
